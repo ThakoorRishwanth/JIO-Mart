@@ -1,0 +1,49 @@
+#footers>div>a{
+
+    text-decoration: dotted;
+    color: black;
+    display: grid;
+     padding-top: 10px;
+     padding-bottom: 10px;
+     margin-bottom: 10px;
+    
+    
+        
+    }
+    
+    #footers{
+         display: flex;
+         flex-wrap: wrap;
+        gap: 50px;
+        margin-bottom: 50px;
+    
+            font-family: Arial, Helvetica, sans-serif;
+        
+    
+    }
+    
+    footer{
+        margin-left: 100px;
+        margin-right: 100px;
+    
+    }
+    
+     
+    #footers>div>a:hover{
+        background-color: rgb(232, 222, 222);
+            
+        }
+    
+        #copywrites>div:nth-child(1){
+            display: flex;
+            text-align: center;
+          align-items: center;
+        }
+    
+        #copywrites {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 300px;
+             
+            font-family: Arial, Helvetica, sans-serif
+        }

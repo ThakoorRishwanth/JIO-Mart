@@ -3,5 +3,9 @@
         "id":"1",
         "name":"Oil",
         "price":150
-    }]
+    },
+{
+    "id":"2",
+    "name":"wheat"
+}]
 }

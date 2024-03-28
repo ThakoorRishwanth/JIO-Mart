@@ -1,21 +1,26 @@
 *{
     font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    color: white;
+    width: auto;
 }
 .mnavContainer{
     width: 100%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     height: 110px;
     display: grid;
     grid-template-rows: repeat(2,1fr);
+    overflow-x: hidden;
 }
 .mnavContainer>div{
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 .mnavContainer>div:nth-child(1){
     height: 70px;
 }
 .mnavChildcontainer{
     display: flex;
+    background-color: #0078ad;
 
 }
 .hamburgerAndlogo{
@@ -32,11 +37,13 @@
     border: 1px solid black;
     margin-inline: 20px;
     margin-block: 15px;
+    
 }
 .logo>img{
     width: 100px;
     height: 60px;
     border: 1px solid black;
+    border-radius: 50px;
    
 }
 .delivery{
@@ -61,6 +68,7 @@
     /* margin-block: 8px; */
     grid-template-columns: repeat(3,1fr);
     border-radius: 20px;
+    background-color: white;
 }
 .search>div{
     border: 1px solid red;
@@ -69,6 +77,8 @@
 .search>div:nth-child(1){
     height: 40px;
     /* margin-block: 10px; */
+    /* border-radius: 20px; */
+   
 }
 .search>div:nth-child(2){
     width: 253px;
@@ -89,9 +99,11 @@
 }
 .signin{
     margin-left: 720px;
-    border: 1px solid green;
+    /* border: 1px solid green; */
     width: 92px;
     margin-block: 3px;
+    border-radius: 20px;
+    
     >button{
       height: 30px;
       width: 92px;
@@ -100,8 +112,70 @@
       justify-content: center;
       height: 40px;
       background-color: transparent;
+      
     }
     
 }
-
-
+/* work on 28/3 */
+.signin:hover{
+    background-color: #0c5273;
+}
+.menu-bar{
+    height: 37px;
+    background-color: #0c5273;
+}
+.menu-bar ul{
+    display: inline-flex;
+    list-style: none;
+    
+}
+.menu-bar ul li{
+    margin-block: -15px;
+    margin-inline: 10px;
+    padding: 10px;
+   
+    
+}
+.menu-bar ul li a{
+    text-decoration: none;
+    height: 30px;
+    
+    
+}
+.GroceriesSubmenu{
+    display: none;
+    
+}
+.GroceriesSubmenu ul{
+    background-color:#0078ad ;
+}
+.GroceriesSubmenu ul li a{
+    color: black;
+    line-height: 30px;
+    margin-left: -50px;
+   
+}
+.menu-bar ul li:hover .GroceriesSubmenu{
+    display: block;
+    position: absolute;
+    margin-top:20px;
+    margin-left: -10px;
+    
+}
+.menu-bar ul li:hover .GroceriesSubmenu ul{
+    display: block;
+    width:auto;
+    
+}
+.FruitsDropdown{
+    display: none;
+}
+.fruitshover:hover .FruitsDropdown{
+      position: absolute;
+      display: block;
+      margin-left: 110px;
+      margin-top: -25px;
+      width: auto;
+      border: 1px solid black;
+     
+}

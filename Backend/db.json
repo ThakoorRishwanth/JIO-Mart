@@ -1,8 +1,1742 @@
 {
-  "products":[{
-    "id":"1",
-    "title": "Grocery",
-    "name":"oil",
-    "price":150
-  }]
+    "Grociries": [
+        {
+            "id": "1",
+            "Product_image": "https://www.jiomart.com/images/product/original/491504124/super-sarvottam-physically-refined-rice-bran-oil-1-l-product-images-o491504124-p491504124-0-202307061545.jpg?im=Resize=(360,360)",
+            "Veg_symbol": "https://www.jiomart.com/assets/ds2web/jds-icons/icon-veg.svg",
+            "title": "Super Sarvottam Physically Refined Rice Bran Oil 1 L",
+            "Current_price": "₹99.00",
+            "MRP": "₹199.00",
+            "Offer": "50% OFF"
+        },
+        {
+            "id": "2",
+            "Product_image": "https://www.jiomart.com/images/product/original/rvwqbfhiw9/dr-vaidya-s-new-age-ayurveda-apple-cider-vinegar-450ml-product-images-orvwqbfhiw9-p606924086-0-202312271420.jpg?im=Resize=(360,360)",
+            "title": "DR. VAIDYA'S new age ayurveda Apple Cider Vinegar, 450ml",
+            "Current_price": "₹299.00",
+            "MRP": "₹500.00",
+            "Offer": "sponsored"
+        },
+        {
+            "id": "3",
+            "Product_image": "https://www.jiomart.com/images/product/original/490004177/mirinda-orange-2-25-l-product-images-o490004177-p490004177-0-202203151914.jpg?im=Resize=(360,360)",
+            "Veg_symbol": "https://www.jiomart.com/assets/ds2web/jds-icons/icon-veg.svg",
+            "title": "Mirinda Orange 2.25 L",
+            "Current_price": "₹66.00",
+            "MRP": "₹100.00",
+            "Offer": "34% OFF"
+        },
+        {
+            "id": "4",
+            "Product_image": "https://www.jiomart.com/images/product/original/491278308/priya-fortified-with-vitamin-a-d-refined-sunflower-oil-1-l-product-images-o491278308-p491278308-0-202203170524.jpg?im=Resize=(360,360)",
+            "Veg_symbol": "https://www.jiomart.com/assets/ds2web/jds-icons/icon-veg.svg",
+            "title": "Priya Fortified With Vitamin A & D Refined Sunflower Oil 1 L",
+            "Current_price": "₹102.00",
+            "MRP": "₹139.00",
+            "Offer": "26% OFF"
+        },
+        {
+            "id": "5",
+            "Product_image": "https://www.jiomart.com/images/product/original/494260170/bharat-chana-dal-1-kg-product-images-o494260170-p606721409-0-202401271413.jpg?im=Resize=(360,360)",
+            "Veg_symbol": "https://www.jiomart.com/assets/ds2web/jds-icons/icon-veg.svg",
+            "title": "Bharat Chana Dal 1 Kg",
+            "Current_price": "₹60.00"
+        },
+        {
+            "id": "6",
+            "Product_image": "https://www.jiomart.com/images/product/original/rvvtuiubgu/dr-vaidya-s-new-age-ayurveda-herboslim-100-g-pack-of-3-product-images-orvvtuiubgu-p591747858-0-202205310356.jpg?im=Resize=(360,360)",
+            "Veg_symbol": "https://www.jiomart.com/assets/ds2web/jds-icons/icon-veg.svg",
+            "title": "Dr. Vaidya's New Age Ayurveda Herboslim Fat Burner, Weight Management, Weight Reduction Capsules- 100g (Pack Of 3)",
+            "Current_price": "₹502.00",
+            "MRP": "₹750.00",
+            "Offer": "sponsored"
+        },
+        {
+            "id": "7",
+            "Product_image": "https://www.jiomart.com/images/product/original/490005534/fortune-refined-soyabean-oil-1-l-product-images-o490005534-p490005534-0-202203151702.jpg?im=Resize=(360,360)",
+            "Veg_symbol": "https://www.jiomart.com/assets/ds2web/jds-icons/icon-veg.svg",
+            "title": "Fortune Refined Soyabean Oil 1 L",
+            "Current_price": "₹118.00",
+            "MRP": "₹133.00",
+            "Offer": "11% OFF"
+        },
+        {
+            "id": "8",
+            "Product_image": "https://www.jiomart.com/images/product/original/492367966/surf-excel-easy-wash-detergent-powder-5-kg-product-images-o492367966-p590837659-0-202208111657.jpg?im=Resize=(360,360)",
+            "title": "Surf Excel Easy Wash Detergent Powder 5 kg",
+            "Current_price": "₹562.00",
+            "MRP": "₹730.00",
+            "Offer": "23% OFF"
+        },
+        {
+            "id": "9",
+            "Product_image": "https://www.jiomart.com/images/product/original/490000052/fortune-sunlite-refined-sunflower-oil-1-l-product-images-o490000052-p490000052-0-202203150155.jpg?im=Resize=(360,360)",
+            "Veg_symbol": "https://www.jiomart.com/assets/ds2web/jds-icons/icon-veg.svg",
+            "title": "Fortune Sunlite Refined Sunflower Oil 1 L",
+            "Current_price": "₹120.00",
+            "MRP": "₹135.00",
+            "Offer": "11% OFF"
+        },
+        {
+            "id": "10",
+            "Product_image": "https://www.jiomart.com/images/product/original/490437774/saffola-active-pro-weight-watchers-rice-bran-based-blended-oil-1-l-product-images-o490437774-p490437774-0-202403191808.jpg?im=Resize=(360,360)",
+            "Veg_symbol": "https://www.jiomart.com/assets/ds2web/jds-icons/icon-veg.svg",
+            "title": "Saffola Active Pro Weight Watchers Rice Bran Based Blended Oil 1 L",
+            "Current_price": "₹109.00",
+            "MRP": "₹160.00",
+            "Offer": "31% OFF"
+        },
+        {
+            "id": "11",
+            "Product_image": "https://www.jiomart.com/images/product/original/490005200/7up-2-25-l-product-images-o490005200-p490005200-0-202210201751.jpg?im=Resize=(360,360)",
+            "Veg_symbol": "https://www.jiomart.com/assets/ds2web/jds-icons/icon-veg.svg",
+            "title": "7Up 2.25 L",
+            "Current_price": "₹66.00",
+            "MRP": "₹100.00",
+            "Offer": "34% OFF"
+        },
+        {
+            "id": "12",
+            "Product_image": "https://www.jiomart.com/images/product/original/rvt8vsrobv/dr-vaidya-s-new-age-ayurveda-weight-plus-with-6-superherbs-for-healthy-weight-gain-500g-product-images-orvt8vsrobv-p606923232-0-202312271338.jpg?im=Resize=(360,360)",
+            "title": "DR. VAIDYA'S new age ayurveda Weight Plus with 6 Superherbs for Healthy Weight Gain, 500g",
+            "Current_price": "₹489.00",
+            "MRP": "₹899.00",
+            "Offer": "sponsored"
+        },
+        {
+            "id": "13",
+            "Product_image": "https://www.jiomart.com/images/product/original/491349660/chakki-atta-10-kg-product-images-o491349660-p491349660-0-202206231932.jpg?im=Resize=(360,360)",
+            "Veg_symbol": "https://www.jiomart.com/assets/ds2web/jds-icons/icon-veg.svg",
+            "title": "Chakki Atta 10 kg",
+            "Current_price": "₹355.00",
+            "MRP": "₹425.00",
+            "Offer": "16% OFF"
+        },
+        {
+            "id": "14",
+            "Product_image": "https://www.jiomart.com/images/product/original/490004176/pepsi-2-l-product-images-o490004176-p490004176-0-202203170742.jpg?im=Resize=(360,360)",
+            "Veg_symbol": "https://www.jiomart.com/assets/ds2web/jds-icons/icon-veg.svg",
+            "title": "Pepsi 2.25 L",
+            "Current_price": "₹65.00",
+            "MRP": "₹100.00",
+            "Offer": "35% OFF"
+        },
+        {
+            "id": "15",
+            "Product_image": "https://www.jiomart.com/images/product/original/490003794/rin-detergent-bar-110-g-product-images-o490003794-p490003794-0-202306061240.jpg?im=Resize=(360,360)",
+            "title": "Rin Detergent Bar 110 g",
+            "Current_price": "₹9.00",
+            "MRP": "₹10.00",
+            "Offer": "10% OFF"
+        },
+        {
+            "id": "16",
+            "Product_image": "https://www.jiomart.com/images/product/original/491417390/good-life-toor-dal-2-kg-product-images-o491417390-p491417390-0-202401111922.jpg?im=Resize=(360,360)",
+            "Veg_symbol": "https://www.jiomart.com/assets/ds2web/jds-icons/icon-veg.svg",
+            "title": "Good Life Toor Dal 2 kg",
+            "Current_price": "₹349.00",
+            "MRP": "₹450.00",
+            "Offer": "22% OFF"
+        },
+        {
+            "id": "17",
+            "Product_image": "https://www.jiomart.com/images/product/original/490000073/tata-iodised-salt-1-kg-product-images-o490000073-p490000073-0-202302131739.jpg?im=Resize=(360,360)",
+            "Veg_symbol": "https://www.jiomart.com/assets/ds2web/jds-icons/icon-veg.svg",
+            "title": "Tata Iodised Salt 1 kg",
+            "Current_price": "₹24.00",
+            "MRP": "₹28.00",
+            "Offer": "14% OFF"
+        },
+        {
+            "id": "18",
+            "Product_image": "https://www.jiomart.com/images/product/original/rvvtuiubgu/dr-vaidya-s-new-age-ayurveda-herboslim-100-g-pack-of-3-product-images-orvvtuiubgu-p591747858-0-202205310356.jpg?im=Resize=(360,360)",
+            "Veg_symbol": "https://www.jiomart.com/assets/ds2web/jds-icons/icon-veg.svg",
+            "title": "Dr. Vaidya's New Age Ayurveda Herboslim Fat Burner, Weight Management, Weight Reduction Capsules- 100g (Pack Of 3)",
+            "Current_price": "₹502.00",
+            "MRP": "₹750.00",
+            "Offer": "sponsored"
+        },
+        {
+            "id": "19",
+            "Product_image": "https://www.jiomart.com/images/product/original/491552148/bisleri-soda-750-ml-product-images-o491552148-p491552148-0-202403121736.jpg?im=Resize=(360,360)",
+            "Veg_symbol": "https://www.jiomart.com/assets/ds2web/jds-icons/icon-veg.svg",
+            "title": "Bisleri Soda 750 ml",
+            "Current_price": "₹13.00",
+            "MRP": "₹20.00",
+            "Offer": "35% OFF"
+        },
+        {
+            "id": "20",
+            "Product_image": "https://www.jiomart.com/images/product/original/492391349/kissan-fresh-tomato-ketchup-1-1-kg-product-images-o492391349-p590809928-0-202402011901.jpg?im=Resize=(360,360)",
+            "Veg_symbol": "https://www.jiomart.com/assets/ds2web/jds-icons/icon-veg.svg",
+            "title": "Kissan Fresh Tomato Ketchup 1.1 kg",
+            "Current_price": "₹97.00",
+            "MRP": "₹150.00",
+            "Offer": "35% OFF"
+        },
+        {
+            "id": "21",
+            "Product_image": "https://www.jiomart.com/images/product/original/491551495/good-life-pure-crystal-sugar-m-5-kg-product-images-o491551495-p491551495-0-202205272019.jpg?im=Resize=(360,360)",
+            "Veg_symbol": "https://www.jiomart.com/assets/ds2web/jds-icons/icon-veg.svg",
+            "title": "Good Life Pure Crystal Sugar (M) 5 kg",
+            "Current_price": "₹217.00",
+            "MRP": "₹300.00",
+            "Offer": "27% OFF"
+        },
+        {
+            "id": "22",
+            "Product_image": "https://www.jiomart.com/images/product/original/491186625/good-life-almonds-500-g-product-images-o491186625-p491186625-0-202205180139.jpg?im=Resize=(360,360)",
+            "Veg_symbol": "https://www.jiomart.com/assets/ds2web/jds-icons/icon-veg.svg",
+            "title": "Good Life Almonds 500 g",
+            "Current_price": "₹359.00",
+            "MRP": "₹549.00",
+            "Offer": "34% OFF"
+        },
+        {
+            "id": "23",
+            "Product_image": "https://www.jiomart.com/images/product/original/490003785/surf-excel-detergent-bar-80-g-product-images-o490003785-p490003785-0-202303221328.jpg?im=Resize=(360,360)",
+            "title": "Surf Excel Detergent Bar 80 g",
+            "Current_price": "₹9.00",
+            "MRP": "₹10.00",
+            "Offer": "10% OFF"
+        },
+        {
+            "id": "24",
+            "Product_image": "https://www.jiomart.com/images/product/original/rvmfzrbgdc/plant-protein-for-chocolate-flavour-500g-product-images-orvmfzrbgdc-p600744255-0-202304201717.jpg?im=Resize=(360,360)",
+            "Veg_symbol": "https://www.jiomart.com/assets/ds2web/jds-icons/icon-veg.svg",
+            "title": "Plant Protein For CHOCOLATE FLAVOUR, 500g",
+            "Current_price": "₹909.00",
+            "MRP": "₹1299.00",
+            "Offer": "sponsored"
+        },
+        {
+            "id": "25",
+            "Product_image": "https://www.jiomart.com/images/product/original/490000363/maggi-2-minute-masala-noodles-70-g-product-images-o490000363-p490000363-0-202305292130.jpg?im=Resize=(360,360)",
+            "Veg_symbol": "https://www.jiomart.com/assets/ds2web/jds-icons/icon-veg.svg",
+            "title": "Maggi 2-Minute Masala Noodles 70 g",
+            "Current_price": "₹13.00",
+            "MRP": "₹14.00",
+            "Offer": "7% OFF"
+        },
+        {
+            "id": "26",
+            "Product_image": "https://www.jiomart.com/images/product/original/491319789/sunfeast-dark-fantasy-original-choco-filled-cookie-300-g-product-images-o491319789-p491319789-0-202308152343.jpg?im=Resize=(360,360)",
+            "Veg_symbol": "https://www.jiomart.com/assets/ds2web/jds-icons/icon-veg.svg",
+            "title": "Sunfeast Dark Fantasy Original Choco Filled Cookie 300 g",
+            "Current_price": "₹98.00",
+            "MRP": "₹170.00",
+            "Offer": "42% OFF"
+        },
+        {
+            "id": "27",
+            "Product_image": "https://www.jiomart.com/images/product/original/490008332/closeup-everfresh-red-hot-gel-toothpaste-150-g-pack-of-2-product-images-o490008332-p490008332-0-202306071847.jpg?im=Resize=(360,360)",
+            "Veg_symbol": "https://www.jiomart.com/assets/ds2web/jds-icons/icon-veg.svg",
+            "title": "Closeup Everfresh+ Red Hot Gel Toothpaste 150 g (Pack of 2)",
+            "Current_price": "₹154.00",
+            "MRP": "₹230.00",
+            "Offer": "33% OFF"
+        },
+        {
+            "id": "28",
+            "Product_image": "https://www.jiomart.com/images/product/original/490057054/hamdard-roohafza-sharbat-syrup-750-ml-product-images-o490057054-p490057054-0-202203151750.jpg?im=Resize=(360,360)",
+            "Veg_symbol": "https://www.jiomart.com/assets/ds2web/jds-icons/icon-veg.svg",
+            "title": "Hamdard Roohafza Sharbat Syrup 750 ml",
+            "Current_price": "₹149.00",
+            "MRP": "₹175.00",
+            "Offer": "14% OFF"
+        },
+        {
+            "id": "29",
+            "Product_image": "https://www.jiomart.com/images/product/original/490008024/fortune-premium-kachi-ghani-pure-mustard-oil-1-l-product-images-o490008024-p490008024-0-202205181239.jpg?im=Resize=(360,360)",
+            "Veg_symbol": "https://www.jiomart.com/assets/ds2web/jds-icons/icon-veg.svg",
+            "title": "Fortune Premium Kachi Ghani Pure Mustard Oil 1 L (Pouch)",
+            "Current_price": "₹137.00",
+            "MRP": "₹175.00",
+            "Offer": "21% OFF"
+        },
+        {
+            "id": "30",
+            "Product_image": "https://www.jiomart.com/images/product/original/rv1llqtd5k/dr-vaidya-s-new-age-ayurveda-triphala-juice-950-ml-product-images-orv1llqtd5k-p596601022-0-202312281902.jpg?im=Resize=(360,360)",
+            "Veg_symbol": "https://www.jiomart.com/assets/ds2web/jds-icons/icon-veg.svg",
+            "title": "DR. VAIDYA'S new age ayurveda Triphala Juice - 950 Ml",
+            "Current_price": "₹210.00",
+            "MRP": "₹300.00",
+            "Offer": "sponsored"
+        },
+        {
+            "id": "31",
+            "Product_image": "https://www.jiomart.com/images/product/original/491086175/tropicano-slice-mango-drink-1-75-l-product-images-o491086175-p491086175-0-202207272007.jpg?im=Resize=(360,360)",
+            "Veg_symbol": "https://www.jiomart.com/assets/ds2web/jds-icons/icon-veg.svg",
+            "title": "Tropicano Slice Mango Drink 1.75 L",
+            "Current_price": "₹65.00",
+            "MRP": "₹99.00",
+            "Offer": "34% OFF"
+        },
+        {
+            "id": "32",
+            "Product_image": "https://www.jiomart.com/images/product/original/490001392/amul-butter-500-g-carton-product-images-o490001392-p490001392-0-202203152128.jpg?im=Resize=(360,360)",
+            "Veg_symbol": "https://www.jiomart.com/assets/ds2web/jds-icons/icon-veg.svg",
+            "title": "Amul Butter 500 g (Carton)",
+            "Current_price": "₹275.00",
+            "MRP": "₹285.00",
+            "Offer": "3% OFF"
+        },
+        {
+            "id": "33",
+            "Product_image": "https://www.jiomart.com/images/product/original/490003812/surf-excel-detergent-bar-200-g-pack-of-4-product-images-o490003812-p490003812-0-202210071818.jpg?im=Resize=(360,360)",
+            "title": "Surf Excel Detergent Bar 200 g (Pack of 4)",
+            "Current_price": "₹105.00",
+            "MRP": "₹122.00",
+            "Offer": "13% OFF"
+        },
+        {
+            "id": "34",
+            "Product_image": "https://www.jiomart.com/images/product/original/491055460/colgate-strong-teeth-strong-you-calcium-boost-toothpaste-saver-pack-500-g-product-images-o491055460-p491055460-0-202308041158.jpg?im=Resize=(360,360)",
+            "Veg_symbol": "https://www.jiomart.com/assets/ds2web/jds-icons/icon-veg.svg",
+            "title": "Colgate Strong Teeth Strong you & Calcium Boost Toothpaste Saver Pack 500 g",
+            "Current_price": "₹225.00",
+            "MRP": "₹305.00",
+            "Offer": "26% OFF"
+        },
+        {
+            "id": "35",
+            "Product_image": "https://www.jiomart.com/images/product/original/491071103/kinley-soda-750-ml-product-images-o491071103-p491071103-0-202203150326.jpg?im=Resize=(360,360)",
+            "Veg_symbol": "https://www.jiomart.com/assets/ds2web/jds-icons/icon-veg.svg",
+            "title": "Kinley Soda 750 ml",
+            "Current_price": "₹18.00",
+            "MRP": "₹20.00",
+            "Offer": "10% OFF"
+        },
+        {
+            "id": "36",
+            "Product_image": "https://www.jiomart.com/images/product/original/rv6makljjr/dr-vaidya-s-new-age-ayurveda-apple-cider-vinegar-effervescent-tablets-pack-of-4-apple-cider-vinegar-effervescent-tablets-pack-of-4-product-images-orv6makljjr-p606081650-0-202311101946.jpg?im=Resize=(360,360)",
+            "Veg_symbol": "https://www.jiomart.com/assets/ds2web/jds-icons/icon-veg.svg",
+            "title": "DR. VAIDYA'S new age ayurveda Apple Cider Vinegar Effervescent Tablets pack of 4",
+            "Current_price": "₹899.00",
+            "MRP": "₹1050.00",
+            "Offer": "sponsored"
+        },
+        {
+            "id": "37",
+            "Product_image": "https://www.jiomart.com/images/product/original/491696393/thums-up-250-ml-8-pcs-product-images-o491696393-p590315619-0-202306191548.jpg?im=Resize=(360,360)",
+            "Veg_symbol": "https://www.jiomart.com/assets/ds2web/jds-icons/icon-veg.svg",
+            "title": "Thums Up 250 ml (8 pcs)",
+            "Current_price": "₹130.00",
+            "MRP": "₹160.00",
+            "Offer": "18% OFF"
+        },
+        {
+            "id": "38",
+            "Product_image": "https://www.jiomart.com/images/product/original/491349659/chakki-atta-5-kg-product-images-o491349659-p491349659-0-202204281316.jpg?im=Resize=(360,360)",
+            "Veg_symbol": "https://www.jiomart.com/assets/ds2web/jds-icons/icon-veg.svg",
+            "title": "Chakki Atta 5 kg",
+            "Current_price": "₹189.00",
+            "MRP": "₹250.00",
+            "Offer": "24% OFF"
+        },
+        {
+            "id": "39",
+            "Product_image": "https://www.jiomart.com/images/product/original/491186631/good-life-w320-cashews-500-g-product-images-o491186631-p491186631-0-202301171615.jpg?im=Resize=(360,360)",
+            "Veg_symbol": "https://www.jiomart.com/assets/ds2web/jds-icons/icon-veg.svg",
+            "title": "Good Life (W320) Cashews 500 g",
+            "Current_price": "₹369.00",
+            "MRP": "₹499.00",
+            "Offer": "26% OFF"
+        },
+        {
+            "id": "40",
+            "Product_image": "https://www.jiomart.com/images/product/original/491472706/good-life-refined-rice-bran-oil-1-l-product-images-o491472706-p491472706-0-202205172238.jpg?im=Resize=(360,360)",
+            "Veg_symbol": "https://www.jiomart.com/assets/ds2web/jds-icons/icon-veg.svg",
+            "title": "Good Life Refined Rice Bran Oil 1 L",
+            "Current_price": "₹98.00",
+            "MRP": "₹150.00",
+            "Offer": "34% OFF"
+        },
+        {
+            "id": "41",
+            "Product_image": "https://www.jiomart.com/images/product/original/491085658/pears-pure-gentle-soap-with-natural-oils-125-g-buy-4-get-1-free-product-images-o491085658-p491085658-0-202306150319.jpg?im=Resize=(360,360)",
+            "title": "Pears Pure & Gentle Soap with Natural Oils 125 g (Buy 4 Get 1 Free)",
+            "Current_price": "₹247.00",
+            "MRP": "₹372.00",
+            "Offer": "33% OFF"
+        },
+        {
+            "id": "42",
+            "Product_image": "https://www.jiomart.com/images/product/original/rv2qnwvdwf/dr-vaidya-s-new-age-ayurveda-liver-care-30-capsules-pack-of-1-product-images-orv2qnwvdwf-p591540191-0-202312281946.jpg?im=Resize=(360,360)",
+            "Veg_symbol": "https://www.jiomart.com/assets/ds2web/jds-icons/icon-veg.svg",
+            "title": "Dr. Vaidya's New Age Ayurveda Liver Care 30 Capsules (Pack Of 1)",
+            "Current_price": "₹240.00",
+            "MRP": "₹300.00",
+            "Offer": "sponsored"
+        },
+        {
+            "id": "43",
+            "Product_image": "https://www.jiomart.com/images/product/original/490003834/maggi-2-minute-masala-instant-noodles-560-g-product-images-o490003834-p490003834-0-202203150702.jpg?im=Resize=(360,360)",
+            "Veg_symbol": "https://www.jiomart.com/assets/ds2web/jds-icons/icon-veg.svg",
+            "title": "Maggi 2-Minute Masala Instant Noodles 560 g",
+            "Current_price": "₹89.00",
+            "MRP": "₹112.00",
+            "Offer": "20% OFF"
+        },
+        {
+            "id": "44",
+            "Product_image": "https://www.jiomart.com/images/product/original/493646145/good-life-almond-value-500-g-product-images-o493646145-p598171261-0-202302070533.jpg?im=Resize=(360,360)",
+            "Veg_symbol": "https://www.jiomart.com/assets/ds2web/jds-icons/icon-veg.svg",
+            "title": "Good Life Value Almond 500 g",
+            "Current_price": "₹319.00",
+            "MRP": "₹525.00",
+            "Offer": "39% OFF"
+        },
+        {
+            "id": "45",
+            "Product_image": "https://www.jiomart.com/images/product/original/rvgiwqhkez/active-white-detergent-powder-10-kg-family-pack-product-images-orvgiwqhkez-p603002057-0-202307071839.jpg?im=Resize=(360,360)",
+            "title": "Active White Detergent Powder - 10 kg Family Pack",
+            "Current_price": "₹449.00",
+            "MRP": "₹500.00",
+            "Offer": "10% OFF"
+        },
+        {
+            "id": "46",
+            "Product_image": "https://www.jiomart.com/images/product/original/rvwqbfhiw9/dr-vaidya-s-new-age-ayurveda-apple-cider-vinegar-450ml-product-images-orvwqbfhiw9-p606924086-0-202312271420.jpg?im=Resize=(360,360)",
+            "title": "DR. VAIDYA'S new age ayurveda Apple Cider Vinegar, 450ml",
+            "Current_price": "₹299.00",
+            "MRP": "₹500.00",
+            "Offer": "sponsored"
+        },
+        {
+            "id": "47",
+            "Product_image": "https://www.jiomart.com/images/product/original/493660866/frooti-mango-drink-2-l-product-images-o493660866-p597738392-0-202301202030.jpg?im=Resize=(360,360)",
+            "Veg_symbol": "https://www.jiomart.com/assets/ds2web/jds-icons/icon-veg.svg",
+            "title": "Frooti Mango Drink 2 L",
+            "Current_price": "₹95.00",
+            "MRP": "₹120.00",
+            "Offer": "20% OFF"
+        },
+        {
+            "id": "48",
+            "Product_image": "https://www.jiomart.com/images/product/original/491053276/monster-energy-drink-350-ml-product-images-o491053276-p491053276-0-202306131333.jpg?im=Resize=(360,360)",
+            "Veg_symbol": "https://www.jiomart.com/assets/ds2web/jds-icons/icon-veg.svg",
+            "title": "Monster Energy Drink 350 ml",
+            "Current_price": "₹84.00",
+            "MRP": "₹125.00",
+            "Offer": "32% OFF"
+        },
+        {
+            "id": "49",
+            "Product_image": "https://www.jiomart.com/images/product/original/490001387/amul-butter-100-g-carton-product-images-o490001387-p490001387-0-202203170403.jpg?im=Resize=(360,360)",
+            "Veg_symbol": "https://www.jiomart.com/assets/ds2web/jds-icons/icon-veg.svg",
+            "title": "Amul Butter 100 g (Carton)",
+            "Current_price": "₹56.00",
+            "MRP": "₹58.00",
+            "Offer": "3% OFF"
+        },
+        {
+            "id": "50",
+            "Product_image": "https://www.jiomart.com/images/product/original/rvvtuiubgu/dr-vaidya-s-new-age-ayurveda-herboslim-100-g-pack-of-3-product-images-orvvtuiubgu-p591747858-0-202205310356.jpg?im=Resize=(360,360)",
+            "Veg_symbol": "https://www.jiomart.com/assets/ds2web/jds-icons/icon-veg.svg",
+            "title": "Dr. Vaidya's New Age Ayurveda Herboslim Fat Burner, Weight Management, Weight Reduction Capsules- 100g (Pack Of 3)",
+            "Current_price": "₹502.00",
+            "MRP": "₹750.00",
+            "Offer": "sponsored"
+        },
+        {
+            "id": "51",
+            "Product_image": "https://www.jiomart.com/images/product/original/491582577/amul-kool-kesar-flavoured-milk-180-ml-bottle-product-images-o491582577-p491582577-0-202203152258.jpg?im=Resize=(360,360)",
+            "Veg_symbol": "https://www.jiomart.com/assets/ds2web/jds-icons/icon-veg.svg",
+            "title": "Amul Kool Kesar Flavoured Milk 180 ml (Bottle)",
+            "Current_price": "₹22.00",
+            "MRP": "₹25.00",
+            "Offer": "12% OFF"
+        },
+        {
+            "id": "52",
+            "Product_image": "https://www.jiomart.com/images/product/original/490876695/britannia-jimjam-sandwich-biscuits-138-g-product-images-o490876695-p490876695-0-202306121927.jpg?im=Resize=(360,360)",
+            "Veg_symbol": "https://www.jiomart.com/assets/ds2web/jds-icons/icon-veg.svg",
+            "title": "Britannia Jimjam Sandwich Biscuits 138 g",
+            "Current_price": "₹27.00",
+            "MRP": "₹35.00",
+            "Offer": "22% OFF"
+        },
+        {
+            "id": "53",
+            "Product_image": "https://www.jiomart.com/images/product/original/490010311/amul-taaza-homogenised-toned-milk-1-l-tetra-pak-product-images-o490010311-p490010311-0-202203152257.jpg?im=Resize=(360,360)",
+            "Veg_symbol": "https://www.jiomart.com/assets/ds2web/jds-icons/icon-veg.svg",
+            "title": "Amul Taaza Homogenised Toned Milk 1 L (Tetra Pak)",
+            "Current_price": "₹70.00",
+            "MRP": "₹72.00",
+            "Offer": "2% OFF"
+        },
+        {
+            "id": "54",
+            "Product_image": "https://www.jiomart.com/images/product/original/491373488/britannia-nutrichoice-hi-fibre-digestive-biscuits-1-kg-product-images-o491373488-p491373488-0-202403111310.jpg?im=Resize=(360,360)",
+            "Veg_symbol": "https://www.jiomart.com/assets/ds2web/jds-icons/icon-veg.svg",
+            "title": "Britannia NutriChoice Hi-Fibre Digestive Biscuits 1 kg",
+            "Current_price": "₹139.00",
+            "MRP": "₹169.00",
+            "Offer": "17% OFF"
+        },
+        {
+            "id": "55",
+            "Product_image": "https://www.jiomart.com/images/product/original/491185109/good-life-jeera-100-g-product-images-o491185109-p491185109-0-202306131531.jpg?im=Resize=(360,360)",
+            "Veg_symbol": "https://www.jiomart.com/assets/ds2web/jds-icons/icon-veg.svg",
+            "title": "Good Life Jeera 100 g",
+            "Current_price": "₹52.00",
+            "MRP": "₹80.00",
+            "Offer": "35% OFF"
+        },
+        {
+            "id": "56",
+            "Product_image": "https://www.jiomart.com/images/product/original/rvt8vsrobv/dr-vaidya-s-new-age-ayurveda-weight-plus-with-6-superherbs-for-healthy-weight-gain-500g-product-images-orvt8vsrobv-p606923232-0-202312271338.jpg?im=Resize=(360,360)",
+            "title": "DR. VAIDYA'S new age ayurveda Weight Plus with 6 Superherbs for Healthy Weight Gain, 500g",
+            "Current_price": "₹489.00",
+            "MRP": "₹899.00",
+            "Offer": "sponsored"
+        },
+        {
+            "id": "57",
+            "Product_image": "https://www.jiomart.com/images/product/original/491252835/tide-jasmine-rose-detergent-powder-5-kg-get-extra-1-kg-free-product-images-o491252835-p590838653-0-202203151949.jpg?im=Resize=(360,360)",
+            "title": "Tide Jasmine & Rose Detergent Powder 5 kg (Get Extra 1 kg Free)",
+            "Current_price": "₹685.00",
+            "MRP": "₹785.00",
+            "Offer": "12% OFF"
+        },
+        {
+            "id": "58",
+            "Product_image": "https://www.jiomart.com/images/product/original/491208777/7up-750-ml-product-images-o491208777-p491208777-0-202211042334.jpg?im=Resize=(360,360)",
+            "Veg_symbol": "https://www.jiomart.com/assets/ds2web/jds-icons/icon-veg.svg",
+            "title": "7Up 750 ml",
+            "Current_price": "₹32.00",
+            "MRP": "₹40.00",
+            "Offer": "20% OFF"
+        },
+        {
+            "id": "59",
+            "Product_image": "https://www.jiomart.com/images/product/original/490012719/gemini-refined-sunflower-oil-1-l-product-images-o490012719-p490012719-0-202308301722.jpg?im=Resize=(360,360)",
+            "Veg_symbol": "https://www.jiomart.com/assets/ds2web/jds-icons/icon-veg.svg",
+            "title": "Gemini Refined Sunflower Oil 1 L",
+            "Current_price": "₹118.00",
+            "MRP": "₹148.00",
+            "Offer": "20% OFF"
+        },
+        {
+            "id": "60",
+            "Product_image": "https://www.jiomart.com/images/product/original/rvmfzrbgdc/plant-protein-for-chocolate-flavour-500g-product-images-orvmfzrbgdc-p600744255-0-202304201717.jpg?im=Resize=(360,360)",
+            "Veg_symbol": "https://www.jiomart.com/assets/ds2web/jds-icons/icon-veg.svg",
+            "title": "Plant Protein For CHOCOLATE FLAVOUR, 500g",
+            "Current_price": "₹909.00",
+            "MRP": "₹1299.00",
+            "Offer": "sponsored"
+        },
+        {
+            "id": "61",
+            "Product_image": "https://www.jiomart.com/images/product/original/rvdu43iqm7/dr-vaidya-s-rumox-ayurvedic-muscle-and-joint-pain-balm-50g-each-pack-of-4-product-images-orvdu43iqm7-p596084106-0-202212061049.jpg?im=Resize=(360,360)",
+            "title": "Dr. Vaidya's Rumox Ayurvedic Muscle and Joint Pain Balm - 50G Each (Pack Of 4)",
+            "Current_price": "₹640.00",
+            "MRP": "₹800.00",
+            "Offer": "sponsored"
+        },
+        {
+            "id": "62",
+            "Product_image": "https://www.jiomart.com/images/product/original/rv1llqtd5k/dr-vaidya-s-new-age-ayurveda-triphala-juice-950-ml-product-images-orv1llqtd5k-p596601022-0-202312281902.jpg?im=Resize=(360,360)",
+            "Veg_symbol": "https://www.jiomart.com/assets/ds2web/jds-icons/icon-veg.svg",
+            "title": "DR. VAIDYA'S new age ayurveda Triphala Juice - 950 Ml",
+            "Current_price": "₹210.00",
+            "MRP": "₹300.00",
+            "Offer": "sponsored"
+        },
+        {
+            "id": "63",
+            "Product_image": "https://www.jiomart.com/images/product/original/rv6makljjr/dr-vaidya-s-new-age-ayurveda-apple-cider-vinegar-effervescent-tablets-pack-of-4-apple-cider-vinegar-effervescent-tablets-pack-of-4-product-images-orv6makljjr-p606081650-0-202311101946.jpg?im=Resize=(360,360)",
+            "Veg_symbol": "https://www.jiomart.com/assets/ds2web/jds-icons/icon-veg.svg",
+            "title": "DR. VAIDYA'S new age ayurveda Apple Cider Vinegar Effervescent Tablets pack of 4",
+            "Current_price": "₹899.00",
+            "MRP": "₹1050.00",
+            "Offer": "sponsored"
+        },
+        {
+            "id": "64",
+            "Product_image": "https://www.jiomart.com/images/product/original/rv2qnwvdwf/dr-vaidya-s-new-age-ayurveda-liver-care-30-capsules-pack-of-1-product-images-orv2qnwvdwf-p591540191-0-202312281946.jpg?im=Resize=(360,360)",
+            "Veg_symbol": "https://www.jiomart.com/assets/ds2web/jds-icons/icon-veg.svg",
+            "title": "Dr. Vaidya's New Age Ayurveda Liver Care 30 Capsules (Pack Of 1)",
+            "Current_price": "₹240.00",
+            "MRP": "₹300.00",
+            "Offer": "sponsored"
+        },
+        {
+            "id": "65",
+            "Product_image": "https://www.jiomart.com/images/product/original/rvklper9zw/dr-vaidya-s-aloe-vera-juice-950-ml-product-images-orvklper9zw-p596360102-0-202302200351.jpg?im=Resize=(360,360)",
+            "Veg_symbol": "https://www.jiomart.com/assets/ds2web/jds-icons/icon-veg.svg",
+            "title": "Dr. Vaidya's Aloe Vera Juice - 950 Ml",
+            "Current_price": "₹210.00",
+            "MRP": "₹300.00",
+            "Offer": "sponsored"
+        },
+        {
+            "id": "66",
+            "Product_image": "https://www.jiomart.com/images/product/original/490003796/surf-excel-easy-wash-detergent-powder-1-5-kg-product-images-o490003796-p490003796-0-202306240656.jpg?im=Resize=(360,360)",
+            "title": "Surf Excel Easy Wash Detergent Powder 1.5 kg",
+            "Current_price": "₹198.00",
+            "MRP": "₹235.00",
+            "Offer": "15% OFF"
+        },
+        {
+            "id": "67",
+            "Product_image": "https://www.jiomart.com/images/product/original/491296576/parry-s-white-label-sulpher-free-sugar-5-kg-product-images-o491296576-p491296576-0-202203151752.jpg?im=Resize=(360,360)",
+            "Veg_symbol": "https://www.jiomart.com/assets/ds2web/jds-icons/icon-veg.svg",
+            "title": "Parry's White Label Sulphur Free Sugar 5 kg",
+            "Current_price": "₹209.00",
+            "MRP": "₹300.00",
+            "Offer": "30% OFF"
+        },
+        {
+            "id": "68",
+            "Product_image": "https://www.jiomart.com/images/product/original/490915877/lux-rose-vitamin-e-soft-glowing-skin-soap-bar-150-g-pack-of-3-product-images-o490915877-p490915877-0-202306070219.jpg?im=Resize=(360,360)",
+            "title": "Lux Rose & Vitamin E Soft Glowing Skin Soap Bar 150 g (Pack of 3)",
+            "Current_price": "₹119.00",
+            "MRP": "₹179.00",
+            "Offer": "33% OFF"
+        },
+        {
+            "id": "69",
+            "Product_image": "https://www.jiomart.com/images/product/original/490005647/fortune-sunlite-refined-sunflower-oil-5-l-product-images-o490005647-p490005647-0-202205180140.jpg?im=Resize=(360,360)",
+            "Veg_symbol": "https://www.jiomart.com/assets/ds2web/jds-icons/icon-veg.svg",
+            "title": "Fortune Sunlite Refined Sunflower Oil 5 L",
+            "Current_price": "₹619.00",
+            "MRP": "₹705.00",
+            "Offer": "12% OFF"
+        },
+        {
+            "id": "70",
+            "Product_image": "https://www.jiomart.com/images/product/original/490001992/brooke-bond-red-label-strong-blend-tea-1-kg-product-images-o490001992-p490001992-0-202304281622.jpg?im=Resize=(360,360)",
+            "Veg_symbol": "https://www.jiomart.com/assets/ds2web/jds-icons/icon-veg.svg",
+            "title": "Brooke Bond Red Label Strong Blend Tea 1 kg",
+            "Current_price": "₹500.00",
+            "MRP": "₹600.00",
+            "Offer": "16% OFF"
+        },
+        {
+            "id": "71",
+            "Product_image": "https://www.jiomart.com/images/product/original/493031619/sunfeast-dark-fantasy-bourbon-biscuits-120-g-product-images-o493031619-p593405131-0-202308160026.jpg?im=Resize=(360,360)",
+            "Veg_symbol": "https://www.jiomart.com/assets/ds2web/jds-icons/icon-veg.svg",
+            "title": "Sunfeast Dark Fantasy Bourbon Biscuits 120 g",
+            "Current_price": "₹17.00",
+            "MRP": "₹35.00",
+            "Offer": "51% OFF"
+        },
+        {
+            "id": "72",
+            "Product_image": "https://www.jiomart.com/images/product/original/491598290/hell-classic-energy-drink-250-ml-product-images-o491598290-p590108369-0-202209231128.jpg?im=Resize=(360,360)",
+            "Veg_symbol": "https://www.jiomart.com/assets/ds2web/jds-icons/icon-veg.svg",
+            "title": "Hell Classic Energy Drink 250 ml",
+            "Current_price": "₹49.00",
+            "MRP": "₹60.00",
+            "Offer": "18% OFF"
+        },
+        {
+            "id": "73",
+            "Product_image": "https://www.jiomart.com/images/product/original/490008739/parle-g-original-glucose-biscuits-800-g-product-images-o490008739-p490008739-0-202203170454.jpg?im=Resize=(360,360)",
+            "Veg_symbol": "https://www.jiomart.com/assets/ds2web/jds-icons/icon-veg.svg",
+            "title": "Parle-G Original Glucose Biscuits 800 g",
+            "Current_price": "₹82.00",
+            "MRP": "₹100.00",
+            "Offer": "18% OFF"
+        },
+        {
+            "id": "74",
+            "Product_image": "https://www.jiomart.com/images/product/original/490009127/maggi-2-minute-masala-instant-noodles-420-g-product-images-o490009127-p490009127-0-202203142033.jpg?im=Resize=(360,360)",
+            "Veg_symbol": "https://www.jiomart.com/assets/ds2web/jds-icons/icon-veg.svg",
+            "title": "Maggi 2-Minute Masala Instant Noodles 420 g",
+            "Current_price": "₹70.00",
+            "MRP": "₹84.00",
+            "Offer": "16% OFF"
+        },
+        {
+            "id": "75",
+            "Product_image": "https://www.jiomart.com/images/product/original/600520461/saffola-gold-rice-bran-based-blended-oil-3-l-india-gate-regular-choice-basmati-rice-5-kg-product-images-o600520461-p590314197-0-202311281729.jpg?im=Resize=(360,360)",
+            "title": "Saffola Gold Rice Bran Based Blended Oil 3 L + India Gate Regular Choice Basmati Rice 5 kg",
+            "Current_price": "₹799.00",
+            "MRP": "₹1,215.00",
+            "Offer": "34% OFF"
+        },
+        {
+            "id": "76",
+            "Product_image": "https://www.jiomart.com/images/product/original/490672482/dabur-red-toothpaste-200-100-g-with-free-toothbrush-product-images-o490672482-p490672482-0-202203152234.jpg?im=Resize=(360,360)",
+            "Veg_symbol": "https://www.jiomart.com/assets/ds2web/jds-icons/icon-veg.svg",
+            "title": "Dabur Red Toothpaste (200 + 100) g (With Free Toothbrush)",
+            "Current_price": "₹137.00",
+            "MRP": "₹205.00",
+            "Offer": "33% OFF"
+        },
+        {
+            "id": "77",
+            "Product_image": "https://www.jiomart.com/images/product/original/491215527/whisper-ultra-clean-hygiene-and-comfort-napkin-with-soft-wings-xl-44-pads-product-images-o491215527-p491215527-0-202308041202.jpg?im=Resize=(360,360)",
+            "title": "Whisper Ultra Hygiene and Comfort Sanitary Napkin with Soft Wings (XL+ ) 44 pads",
+            "Current_price": "₹419.00",
+            "MRP": "₹599.00",
+            "Offer": "30% OFF"
+        },
+        {
+            "id": "78",
+            "Product_image": "https://www.jiomart.com/images/product/original/491334852/good-life-kachi-ghani-mustard-oil-1-l-pouch-product-images-o491334852-p491334852-0-202204281552.jpg?im=Resize=(360,360)",
+            "Veg_symbol": "https://www.jiomart.com/assets/ds2web/jds-icons/icon-veg.svg",
+            "title": "Good Life Kachi Ghani Mustard Oil 1 L (Pouch)",
+            "Current_price": "₹117.00",
+            "MRP": "₹170.00",
+            "Offer": "31% OFF"
+        },
+        {
+            "id": "79",
+            "Product_image": "https://www.jiomart.com/images/product/original/491335633/parle-g-gold-biscuits-1-kg-product-images-o491335633-p491335633-0-202303221149.jpg?im=Resize=(360,360)",
+            "Veg_symbol": "https://www.jiomart.com/assets/ds2web/jds-icons/icon-veg.svg",
+            "title": "Parle-G Gold Biscuits 1 kg",
+            "Current_price": "₹100.00",
+            "MRP": "₹140.00",
+            "Offer": "28% OFF"
+        },
+        {
+            "id": "80",
+            "Product_image": "https://www.jiomart.com/images/product/original/490415502/comfort-after-wash-morning-fresh-fabric-conditioner-860-ml-product-images-o490415502-p490415502-0-202310200300.jpg?im=Resize=(360,360)",
+            "title": "Comfort After Wash Morning Fresh Fabric Conditioner 860 ml",
+            "Current_price": "₹180.00",
+            "MRP": "₹235.00",
+            "Offer": "23% OFF"
+        },
+        {
+            "id": "81",
+            "Product_image": "https://www.jiomart.com/images/product/original/rvgqf5jbad/bumtum-baby-diaper-medium-72-pcs-product-images-orvgqf5jbad-p590872168-0-202308010216.jpg?im=Resize=(360,360)",
+            "title": "Bumtum Baby Diaper-Medium (72 pcs)",
+            "Current_price": "₹479.00",
+            "MRP": "₹1,249.00",
+            "Offer": "61% OFF"
+        },
+        {
+            "id": "82",
+            "Product_image": "https://www.jiomart.com/images/product/original/491961317/dove-cream-beauty-bathing-bar-125-g-buy-4-get-1-free-product-images-o491961317-p590287499-0-202310141058.jpg?im=Resize=(360,360)",
+            "title": "Dove Cream Beauty Bathing Bar 125 g (Buy 4 Get 1 Free)",
+            "Current_price": "₹310.00",
+            "MRP": "₹463.00",
+            "Offer": "33% OFF"
+        },
+        {
+            "id": "83",
+            "Product_image": "https://www.jiomart.com/images/product/original/491438626/parachute-100-pure-coconut-hair-oil-300-ml-product-images-o491438626-p491438626-0-202203170750.jpg?im=Resize=(360,360)",
+            "title": "Parachute 100% Pure Coconut Hair Oil 300 ml",
+            "Current_price": "₹99.00",
+            "MRP": "₹127.00",
+            "Offer": "22% OFF"
+        },
+        {
+            "id": "84",
+            "Product_image": "https://www.jiomart.com/images/product/original/492862378/maggi-2-minutes-masala-noodles-pack-832-g-product-images-o492862378-p597650845-0-202305062117.jpg?im=Resize=(360,360)",
+            "Veg_symbol": "https://www.jiomart.com/assets/ds2web/jds-icons/icon-veg.svg",
+            "title": "Maggi 2-Minutes Masala Noodles Pack 832 g",
+            "Current_price": "₹130.00",
+            "MRP": "₹160.00",
+            "Offer": "18% OFF"
+        },
+        {
+            "id": "85",
+            "Product_image": "https://www.jiomart.com/images/product/original/491161888/britannia-good-day-cashew-cookies-600-g-family-pack-product-images-o491161888-p491161888-0-202403060745.jpg?im=Resize=(360,360)",
+            "Veg_symbol": "https://www.jiomart.com/assets/ds2web/jds-icons/icon-veg.svg",
+            "title": "Britannia Good Day Cashew Cookies 600 g (Family Pack)",
+            "Current_price": "₹90.00",
+            "MRP": "₹135.00",
+            "Offer": "33% OFF"
+        },
+        {
+            "id": "86",
+            "Product_image": "https://www.jiomart.com/images/product/original/491417436/fortune-chakki-fresh-whole-wheat-atta-10-kg-product-images-o491417436-p491417436-0-202203170527.jpg?im=Resize=(360,360)",
+            "Veg_symbol": "https://www.jiomart.com/assets/ds2web/jds-icons/icon-veg.svg",
+            "title": "Fortune Chakki Fresh Whole Wheat Atta 10 kg",
+            "Current_price": "₹409.00",
+            "MRP": "₹470.00",
+            "Offer": "12% OFF"
+        },
+        {
+            "id": "87",
+            "Product_image": "https://www.jiomart.com/images/product/original/494336376/surf-excel-matic-top-load-liquid-detergent-4-l-product-images-o494336376-p606857071-0-202312221618.jpg?im=Resize=(360,360)",
+            "title": "Surf Excel Matic Top Load Liquid Detergent 4 L",
+            "Current_price": "₹565.00",
+            "MRP": "₹850.00",
+            "Offer": "33% OFF"
+        },
+        {
+            "id": "88",
+            "Product_image": "https://www.jiomart.com/images/product/original/490249971/b-natural-mixed-fruit-juice-1-l-product-images-o490249971-p490249971-0-202211091902.jpg?im=Resize=(360,360)",
+            "Veg_symbol": "https://www.jiomart.com/assets/ds2web/jds-icons/icon-veg.svg",
+            "title": "B Natural Mixed Fruit Juice 1 L",
+            "Current_price": "₹70.00",
+            "MRP": "₹140.00",
+            "Offer": "50% OFF"
+        },
+        {
+            "id": "89",
+            "Product_image": "https://www.jiomart.com/images/product/original/490010164/amul-pure-ghee-1-l-pouch-product-images-o490010164-p490010164-0-202203151915.jpg?im=Resize=(360,360)",
+            "Veg_symbol": "https://www.jiomart.com/assets/ds2web/jds-icons/icon-veg.svg",
+            "title": "Amul Pure Ghee 1 L (Pouch)",
+            "Current_price": "₹603.00",
+            "MRP": "₹635.00",
+            "Offer": "5% OFF"
+        },
+        {
+            "id": "90",
+            "Product_image": "https://www.jiomart.com/images/product/original/491349663/suji-rawa-1-kg-product-images-o491349663-p491349663-0-202203170624.jpg?im=Resize=(360,360)",
+            "Veg_symbol": "https://www.jiomart.com/assets/ds2web/jds-icons/icon-veg.svg",
+            "title": "Suji / Rawa 1 kg",
+            "Current_price": "₹50.00",
+            "MRP": "₹106.00",
+            "Offer": "52% OFF"
+        },
+        {
+            "id": "91",
+            "Product_image": "https://www.jiomart.com/images/product/original/490916874/tide-naturals-lemon-chandan-detergent-powder-1-kg-product-images-o490916874-p490916874-0-202205301924.jpg?im=Resize=(360,360)",
+            "title": "Tide Naturals Lemon & Chandan Detergent Powder 1 kg",
+            "Current_price": "₹79.00",
+            "MRP": "₹85.00",
+            "Offer": "7% OFF"
+        },
+        {
+            "id": "92",
+            "Product_image": "https://www.jiomart.com/images/product/original/491695463/britannia-good-day-cashew-biscuits-1-kg-product-images-o491695463-p590116903-0-202308241215.jpg?im=Resize=(360,360)",
+            "Veg_symbol": "https://www.jiomart.com/assets/ds2web/jds-icons/icon-veg.svg",
+            "title": "Britannia Good Day Cashew Biscuits 1 Kg",
+            "Current_price": "₹150.00",
+            "MRP": "₹300.00",
+            "Offer": "50% OFF"
+        },
+        {
+            "id": "93",
+            "Product_image": "https://www.jiomart.com/images/product/original/491016281/colgate-max-fresh-spicy-fresh-red-gel-toothpaste-150-g-pack-of-2-product-images-o491016281-p491016281-0-202206021942.jpg?im=Resize=(360,360)",
+            "Veg_symbol": "https://www.jiomart.com/assets/ds2web/jds-icons/icon-veg.svg",
+            "title": "Colgate Max Fresh Spicy Fresh Red Gel Toothpaste 150 g (Pack of 2)",
+            "Current_price": "₹174.00",
+            "MRP": "₹250.00",
+            "Offer": "30% OFF"
+        },
+        {
+            "id": "94",
+            "Product_image": "https://www.jiomart.com/images/product/original/490750662/aashirvaad-superior-mp-atta-10-kg-product-images-o490750662-p590150649-0-202401260852.jpg?im=Resize=(360,360)",
+            "Veg_symbol": "https://www.jiomart.com/assets/ds2web/jds-icons/icon-veg.svg",
+            "title": "Aashirvaad Superior MP Atta 10 kg",
+            "Current_price": "₹481.00",
+            "MRP": "₹568.00",
+            "Offer": "15% OFF"
+        },
+        {
+            "id": "95",
+            "Product_image": "https://www.jiomart.com/images/product/original/490005349/britannia-bourbon-the-original-cream-biscuits-150-g-product-images-o490005349-p490005349-0-202403111310.jpg?im=Resize=(360,360)",
+            "Veg_symbol": "https://www.jiomart.com/assets/ds2web/jds-icons/icon-veg.svg",
+            "title": "Britannia Bourbon The Original Cream Biscuits 150 g",
+            "Current_price": "₹32.00",
+            "MRP": "₹40.00",
+            "Offer": "20% OFF"
+        },
+        {
+            "id": "96",
+            "Product_image": "https://www.jiomart.com/images/product/original/491551493/good-life-sugar-m-1-kg-product-images-o491551493-p491551493-0-202204281542.jpg?im=Resize=(360,360)",
+            "Veg_symbol": "https://www.jiomart.com/assets/ds2web/jds-icons/icon-veg.svg",
+            "title": "Good Life Sugar (M) 1 kg",
+            "Current_price": "₹48.00",
+            "MRP": "₹65.00",
+            "Offer": "26% OFF"
+        },
+        {
+            "id": "97",
+            "Product_image": "https://www.jiomart.com/images/product/original/490002128/parachute-100-pure-coconut-hair-oil-1-l-product-images-o490002128-p490002128-0-202203170449.jpg?im=Resize=(360,360)",
+            "title": "Parachute 100% Pure Coconut Hair Oil 1 L",
+            "Current_price": "₹289.00",
+            "MRP": "₹415.00",
+            "Offer": "30% OFF"
+        },
+        {
+            "id": "98",
+            "Product_image": "https://www.jiomart.com/images/product/original/490011073/sunday-refined-sunflower-oil-1-l-product-images-o490011073-p490011073-0-202209231803.jpg?im=Resize=(360,360)",
+            "Veg_symbol": "https://www.jiomart.com/assets/ds2web/jds-icons/icon-veg.svg",
+            "title": "Sunday Refined Sunflower Oil 1 L",
+            "Current_price": "₹111.00",
+            "MRP": "₹189.00",
+            "Offer": "41% OFF"
+        },
+        {
+            "id": "99",
+            "Product_image": "https://www.jiomart.com/images/product/original/490870362/date-crown-bumaan-dates-500-g-product-images-o490870362-p490870362-0-202307070227.jpg?im=Resize=(360,360)",
+            "Veg_symbol": "https://www.jiomart.com/assets/ds2web/jds-icons/icon-veg.svg",
+            "title": "Date Crown Bumaan Dates 500 g",
+            "Current_price": "₹85.00",
+            "MRP": "₹150.00",
+            "Offer": "43% OFF"
+        },
+        {
+            "id": "100",
+            "Product_image": "https://www.jiomart.com/images/product/original/491433822/stayfree-secure-cottony-soft-cover-sanitary-napkin-with-wings-xl-40-pads-product-images-o491433822-p491433822-0-202211021757.jpg?im=Resize=(360,360)",
+            "title": "Stayfree Secure Cottony Soft Cover Sanitary Napkin with Wings (XL) 40 pads",
+            "Current_price": "₹215.00",
+            "MRP": "₹275.00",
+            "Offer": "21% OFF"
+        },
+        {
+            "id": "101",
+            "Product_image": "https://www.jiomart.com/images/product/original/490059250/lifebuoy-total-10-germ-protection-soap-40-g-product-images-o490059250-p490059250-0-202306041043.jpg?im=Resize=(360,360)",
+            "title": "Lifebuoy Total 10 Germ Protection Soap 40 g",
+            "Current_price": "₹9.00",
+            "MRP": "₹10.00",
+            "Offer": "10% OFF"
+        },
+        {
+            "id": "102",
+            "Product_image": "https://www.jiomart.com/images/product/original/491349664/suji-rawa-500-g-product-images-o491349664-p491349664-0-202203170612.jpg?im=Resize=(360,360)",
+            "Veg_symbol": "https://www.jiomart.com/assets/ds2web/jds-icons/icon-veg.svg",
+            "title": "Suji / Rawa 500 g",
+            "Current_price": "₹25.00",
+            "MRP": "₹53.00",
+            "Offer": "52% OFF"
+        },
+        {
+            "id": "103",
+            "Product_image": "https://www.jiomart.com/images/product/original/490861956/madhur-pure-hygienic-sugar-5-kg-product-images-o490861956-p490861956-0-202208221852.jpg?im=Resize=(360,360)",
+            "Veg_symbol": "https://www.jiomart.com/assets/ds2web/jds-icons/icon-veg.svg",
+            "title": "Madhur Pure & Hygienic Sugar 5 kg",
+            "Current_price": "₹255.00",
+            "MRP": "₹315.00",
+            "Offer": "19% OFF"
+        },
+        {
+            "id": "104",
+            "Product_image": "https://www.jiomart.com/images/product/original/490335858/sunfeast-dark-fantasy-vanilla-creme-biscuits-100-g-product-images-o490335858-p490335858-0-202304271730.jpg?im=Resize=(360,360)",
+            "Veg_symbol": "https://www.jiomart.com/assets/ds2web/jds-icons/icon-veg.svg",
+            "title": "Sunfeast Dark Fantasy Vanilla Creme Biscuits 100 g",
+            "Current_price": "₹17.00",
+            "MRP": "₹35.00",
+            "Offer": "51% OFF"
+        },
+        {
+            "id": "105",
+            "Product_image": "https://www.jiomart.com/images/product/original/491203242/good-life-yellow-kishmish-500-g-product-images-o491203242-p491203242-0-202306141844.jpg?im=Resize=(360,360)",
+            "Veg_symbol": "https://www.jiomart.com/assets/ds2web/jds-icons/icon-veg.svg",
+            "title": "Good Life Yellow Kishmish 500 g",
+            "Current_price": "₹135.00",
+            "MRP": "₹183.00",
+            "Offer": "26% OFF"
+        },
+        {
+            "id": "106",
+            "Product_image": "https://www.jiomart.com/images/product/original/490896732/vim-lemon-dishwash-liquid-750-ml-product-images-o490896732-p490896732-0-202401041732.jpg?im=Resize=(360,360)",
+            "title": "Vim Lemon Dishwash Liquid 750 ml",
+            "Current_price": "₹149.00",
+            "MRP": "₹199.00",
+            "Offer": "25% OFF"
+        },
+        {
+            "id": "107",
+            "Product_image": "https://www.jiomart.com/images/product/original/491587350/cinthol-lime-refreshing-deo-soap-150-g-pack-of-5-product-images-o491587350-p491587350-0-202203151002.jpg?im=Resize=(360,360)",
+            "title": "Cinthol Lime Refreshing Deo Soap 150 g (Pack of 5)",
+            "Current_price": "₹197.00",
+            "MRP": "₹295.00",
+            "Offer": "33% OFF"
+        },
+        {
+            "id": "108",
+            "Product_image": "https://www.jiomart.com/images/product/original/491961089/rin-detergent-powder-5-kg-product-images-o491961089-p590140436-0-202206221041.jpg?im=Resize=(360,360)",
+            "title": "Rin Detergent Powder 5 kg",
+            "Current_price": "₹465.00",
+            "MRP": "₹565.00",
+            "Offer": "17% OFF"
+        },
+        {
+            "id": "109",
+            "Product_image": "https://www.jiomart.com/images/product/original/493656218/surf-excel-matic-top-load-liquid-detergent-3-2-l-product-images-o493656218-p596950628-0-202308041207.jpg?im=Resize=(360,360)",
+            "title": "Surf Excel Matic Top Load Liquid Detergent 3.2 L",
+            "Current_price": "₹460.00",
+            "MRP": "₹685.00",
+            "Offer": "32% OFF"
+        },
+        {
+            "id": "110",
+            "Product_image": "https://www.jiomart.com/images/product/original/490998044/nivea-soft-light-moisturiser-cream-for-face-hands-body-300-ml-product-images-o490998044-p490998044-0-202305301942.jpg?im=Resize=(360,360)",
+            "title": "Nivea Soft Light Moisturiser Cream for Face, Hands & Body 300 ml",
+            "Current_price": "₹390.00",
+            "MRP": "₹550.00",
+            "Offer": "29% OFF"
+        },
+        {
+            "id": "111",
+            "Product_image": "https://www.jiomart.com/images/product/original/490081020/gemini-refined-sunflower-oil-15-l-product-images-o490081020-p490081020-0-202312111732.jpg?im=Resize=(360,360)",
+            "Veg_symbol": "https://www.jiomart.com/assets/ds2web/jds-icons/icon-veg.svg",
+            "title": "Gemini Refined Sunflower Oil 15 L",
+            "Current_price": "₹1,665.00",
+            "MRP": "₹1,950.00",
+            "Offer": "14% OFF"
+        },
+        {
+            "id": "112",
+            "Product_image": "https://www.jiomart.com/images/product/original/491584192/mangaldeep-4-in-1-agarbatti-pouch-108-pcs-product-images-o491584192-p491584192-0-202312191814.jpg?im=Resize=(360,360)",
+            "title": "Mangaldeep 4 in 1 Agarbatti Pouch 108 pcs",
+            "Current_price": "₹38.00",
+            "MRP": "₹76.00",
+            "Offer": "50% OFF"
+        },
+        {
+            "id": "113",
+            "Product_image": "https://www.jiomart.com/images/product/original/491696003/sugar-m-2-kg-product-images-o491696003-p590108360-0-202305081155.jpg?im=Resize=(360,360)",
+            "Veg_symbol": "https://www.jiomart.com/assets/ds2web/jds-icons/icon-veg.svg",
+            "title": "Sugar (M) 2 kg",
+            "Current_price": "₹91.00",
+            "MRP": "₹120.00",
+            "Offer": "24% OFF"
+        },
+        {
+            "id": "114",
+            "Product_image": "https://www.jiomart.com/images/product/original/490479104/date-crown-premium-fard-dates-500-g-product-images-o490479104-p490479104-0-202307081137.jpg?im=Resize=(360,360)",
+            "Veg_symbol": "https://www.jiomart.com/assets/ds2web/jds-icons/icon-veg.svg",
+            "title": "Date Crown Premium Fard Dates 500 g",
+            "Current_price": "₹179.00",
+            "MRP": "₹315.00",
+            "Offer": "43% OFF"
+        },
+        {
+            "id": "115",
+            "Product_image": "https://www.jiomart.com/images/product/original/490004178/tata-agni-strong-leaf-tea-1-kg-product-images-o490004178-p490004178-0-202212071949.jpg?im=Resize=(360,360)",
+            "Veg_symbol": "https://www.jiomart.com/assets/ds2web/jds-icons/icon-veg.svg",
+            "title": "Tata Agni Strong Leaf Tea 1 kg",
+            "Current_price": "₹185.00",
+            "MRP": "₹220.00",
+            "Offer": "15% OFF"
+        },
+        {
+            "id": "116",
+            "Product_image": "https://www.jiomart.com/images/product/original/490335859/sunfeast-dark-fantasy-choco-creme-biscuits-100-g-product-images-o490335859-p490335859-0-202205180127.jpg?im=Resize=(360,360)",
+            "Veg_symbol": "https://www.jiomart.com/assets/ds2web/jds-icons/icon-veg.svg",
+            "title": "Sunfeast Dark Fantasy Choco Creme Biscuits 100 g",
+            "Current_price": "₹17.00",
+            "MRP": "₹35.00",
+            "Offer": "51% OFF"
+        },
+        {
+            "id": "117",
+            "Product_image": "https://www.jiomart.com/images/product/original/491185140/good-life-jeera-500-g-product-images-o491185140-p491185140-0-202204261859.jpg?im=Resize=(360,360)",
+            "Veg_symbol": "https://www.jiomart.com/assets/ds2web/jds-icons/icon-veg.svg",
+            "title": "Good Life Jeera 500 g",
+            "Current_price": "₹245.00",
+            "MRP": "₹385.00",
+            "Offer": "36% OFF"
+        },
+        {
+            "id": "118",
+            "Product_image": "https://www.jiomart.com/images/product/original/492591951/vim-extra-anti-smell-pudina-dishwash-bar-200-g-buy-4-get-1-free-product-images-o492591951-p591018168-0-202204281342.jpg?im=Resize=(360,360)",
+            "title": "Vim Extra Anti Smell Pudina Dishwash Bar 200 g (Buy 4 Get 1 Free)",
+            "Current_price": "₹97.00",
+            "MRP": "₹130.00",
+            "Offer": "25% OFF"
+        },
+        {
+            "id": "119",
+            "Product_image": "https://www.jiomart.com/images/product/original/491984653/parle-20-20-gold-cashew-almond-cookies-1-kg-product-images-o491984653-p590441792-0-202403190817.jpg?im=Resize=(360,360)",
+            "Veg_symbol": "https://www.jiomart.com/assets/ds2web/jds-icons/icon-veg.svg",
+            "title": "Parle 20-20 Gold Cashew Almond Cookies 1 kg",
+            "Current_price": "₹125.00",
+            "MRP": "₹250.00",
+            "Offer": "50% OFF"
+        },
+        {
+            "id": "120",
+            "Product_image": "https://www.jiomart.com/images/product/original/491349662/maida-1-kg-product-images-o491349662-p491349662-0-202203171127.jpg?im=Resize=(360,360)",
+            "Veg_symbol": "https://www.jiomart.com/assets/ds2web/jds-icons/icon-veg.svg",
+            "title": "Maida 1 kg",
+            "Current_price": "₹45.00",
+            "MRP": "₹106.00",
+            "Offer": "57% OFF"
+        },
+        {
+            "id": "121",
+            "Product_image": "https://www.jiomart.com/images/product/original/490073718/wagh-bakri-leaf-tea-1-kg-product-images-o490073718-p490073718-0-202203170743.jpg?im=Resize=(360,360)",
+            "Veg_symbol": "https://www.jiomart.com/assets/ds2web/jds-icons/icon-veg.svg",
+            "title": "Wagh Bakri Premium Leaf Tea 1 kg",
+            "Current_price": "₹480.00",
+            "MRP": "₹570.00",
+            "Offer": "15% OFF"
+        },
+        {
+            "id": "122",
+            "Product_image": "https://www.jiomart.com/images/product/original/490001545/amul-gold-homogenised-standardised-milk-1-l-tetra-pak-product-images-o490001545-p490001545-0-202203170625.jpg?im=Resize=(360,360)",
+            "Veg_symbol": "https://www.jiomart.com/assets/ds2web/jds-icons/icon-veg.svg",
+            "title": "Amul Gold Homogenised Standardised Milk 1 L (Tetra Pak)",
+            "Current_price": "₹74.00",
+            "MRP": "₹80.00",
+            "Offer": "7% OFF"
+        },
+        {
+            "id": "123",
+            "Product_image": "https://www.jiomart.com/images/product/original/490004180/tata-tea-premium-desh-ki-chai-1-kg-product-images-o490004180-p490004180-0-202304281501.jpg?im=Resize=(360,360)",
+            "Veg_symbol": "https://www.jiomart.com/assets/ds2web/jds-icons/icon-veg.svg",
+            "title": "Tata Tea Premium Desh Ki Chai 1 kg",
+            "Current_price": "₹430.00",
+            "MRP": "₹570.00",
+            "Offer": "24% OFF"
+        },
+        {
+            "id": "124",
+            "Product_image": "https://www.jiomart.com/images/product/original/491409955/kellogg-s-fruit-nut-crunchy-muesli-750-g-product-images-o491409955-p491409955-0-202203152122.jpg?im=Resize=(360,360)",
+            "Veg_symbol": "https://www.jiomart.com/assets/ds2web/jds-icons/icon-veg.svg",
+            "title": "Kelloggs Fruit and Nut Muesli 750 g",
+            "Current_price": "₹379.00",
+            "MRP": "₹499.00",
+            "Offer": "24% OFF"
+        },
+        {
+            "id": "125",
+            "Product_image": "https://www.jiomart.com/images/product/original/491165093/india-gate-mini-mogra-ii-basmati-rice-10-kg-product-images-o491165093-p491165093-0-202305232157.jpg?im=Resize=(360,360)",
+            "Veg_symbol": "https://www.jiomart.com/assets/ds2web/jds-icons/icon-veg.svg",
+            "title": "India Gate Mini Mogra-II Basmati Rice 10 kg",
+            "Current_price": "₹429.00",
+            "MRP": "₹520.00",
+            "Offer": "17% OFF"
+        },
+        {
+            "id": "126",
+            "Product_image": "https://www.jiomart.com/images/product/original/490012710/fortune-kachi-ghani-mustard-oil-5-l-product-images-o490012710-p490012710-0-202304281447.jpg?im=Resize=(360,360)",
+            "Veg_symbol": "https://www.jiomart.com/assets/ds2web/jds-icons/icon-veg.svg",
+            "title": "Fortune Kachi Ghani Mustard Oil 5 L",
+            "Current_price": "₹719.00",
+            "MRP": "₹944.00",
+            "Offer": "23% OFF"
+        },
+        {
+            "id": "127",
+            "Product_image": "https://www.jiomart.com/images/product/original/491185139/good-life-jeera-200-g-product-images-o491185139-p491185139-0-202204261859.jpg?im=Resize=(360,360)",
+            "Veg_symbol": "https://www.jiomart.com/assets/ds2web/jds-icons/icon-veg.svg",
+            "title": "Good Life Jeera 200 g",
+            "Current_price": "₹102.00",
+            "MRP": "₹155.00",
+            "Offer": "34% OFF"
+        },
+        {
+            "id": "128",
+            "Product_image": "https://www.jiomart.com/images/product/original/491278427/surf-excel-easy-wash-detergent-powder-1-kg-product-images-o491278427-p491278427-0-202210071633.jpg?im=Resize=(360,360)",
+            "title": "Surf Excel Easy Wash Detergent Powder 1 kg",
+            "Current_price": "₹131.00",
+            "MRP": "₹150.00",
+            "Offer": "12% OFF"
+        },
+        {
+            "id": "129",
+            "Product_image": "https://www.jiomart.com/images/product/original/491334851/good-life-kachi-ghani-mustard-oil-1-l-bottle-product-images-o491334851-p491334851-0-202205172236.jpg?im=Resize=(360,360)",
+            "Veg_symbol": "https://www.jiomart.com/assets/ds2web/jds-icons/icon-veg.svg",
+            "title": "Good Life Kachi Ghani Mustard Oil 1 L (Bottle)",
+            "Current_price": "₹122.00",
+            "MRP": "₹175.00",
+            "Offer": "30% OFF"
+        },
+        {
+            "id": "130",
+            "Product_image": "https://www.jiomart.com/images/product/original/490001537/nestle-milkmaid-condensed-milk-380-g-tin-product-images-o490001537-p490001537-0-202211151711.jpg?im=Resize=(360,360)",
+            "Veg_symbol": "https://www.jiomart.com/assets/ds2web/jds-icons/icon-veg.svg",
+            "title": "Nestle Milkmaid Condensed Milk 380 g (Tin)",
+            "Current_price": "₹129.00",
+            "MRP": "₹147.00",
+            "Offer": "12% OFF"
+        },
+        {
+            "id": "131",
+            "Product_image": "https://www.jiomart.com/images/product/original/491349648/besan-500-g-product-images-o491349648-p491349648-0-202206231932.jpg?im=Resize=(360,360)",
+            "Veg_symbol": "https://www.jiomart.com/assets/ds2web/jds-icons/icon-veg.svg",
+            "title": "Besan 500 g",
+            "Current_price": "₹43.00",
+            "MRP": "₹95.00",
+            "Offer": "54% OFF"
+        },
+        {
+            "id": "132",
+            "Product_image": "https://www.jiomart.com/images/product/original/492339545/storia-tender-coconut-water-1-l-product-images-o492339545-p590441811-0-202210281658.jpg?im=Resize=(360,360)",
+            "Veg_symbol": "https://www.jiomart.com/assets/ds2web/jds-icons/icon-veg.svg",
+            "title": "Storia Tender Coconut Water 1 L",
+            "Current_price": "₹89.00",
+            "MRP": "₹178.00",
+            "Offer": "50% OFF"
+        },
+        {
+            "id": "133",
+            "Product_image": "https://www.jiomart.com/images/product/original/490916734/pepsi-250-ml-product-images-o490916734-p490916734-0-202206231805.jpg?im=Resize=(360,360)",
+            "Veg_symbol": "https://www.jiomart.com/assets/ds2web/jds-icons/icon-veg.svg",
+            "title": "Pepsi 250 ml",
+            "Current_price": "₹27.00",
+            "MRP": "₹35.00",
+            "Offer": "22% OFF"
+        },
+        {
+            "id": "134",
+            "Product_image": "https://www.jiomart.com/images/product/original/492848165/surf-excel-matic-top-load-detergent-powder-6-kg-product-images-o492848165-p591223798-0-202306091508.jpg?im=Resize=(360,360)",
+            "title": "Surf Excel Matic Top Load Detergent Powder 6 kg",
+            "Current_price": "₹1,017.00",
+            "MRP": "₹1,375.00",
+            "Offer": "26% OFF"
+        },
+        {
+            "id": "135",
+            "Product_image": "https://www.jiomart.com/images/product/original/490001800/sprite-600-ml-product-images-o490001800-p490001800-0-202203170616.jpg?im=Resize=(360,360)",
+            "Veg_symbol": "https://www.jiomart.com/assets/ds2web/jds-icons/icon-veg.svg",
+            "title": "Sprite 600 ml",
+            "Current_price": "₹30.00",
+            "MRP": "₹38.00",
+            "Offer": "21% OFF"
+        },
+        {
+            "id": "136",
+            "title": "Ariel Matic Top Load Detergent Powder 4 kg (Get Extra 2 kg Free)",
+            "Current_price": "₹1,100.00",
+            "MRP": "₹1,375.00",
+            "Offer": "20% OFF"
+        },
+        {
+            "id": "137",
+            "Veg_symbol": "https://www.jiomart.com/assets/ds2web/jds-icons/icon-veg.svg",
+            "title": "Aashirvaad Superior MP Atta 5 kg",
+            "Current_price": "₹245.00",
+            "MRP": "₹294.00",
+            "Offer": "16% OFF"
+        }
+    ],
+      "Fruits": [
+          {
+              "id": "1",
+              "Product_image": "https://www.jiomart.com/images/product/original/599991658/dates-kimia-curate-premium-imported-pack-500-g-product-images-o599991658-p600939327-0-202305241903.jpg?im=Resize=(360,360)",
+              "Veg-Symbol": "https://www.jiomart.com/assets/ds2web/jds-icons/icon-veg.svg",
+              "title": "Dates Kimia Curate Premium Imported Pack 500 g",
+              "Current_price": "₹189.00",
+              "MRP": "₹250.00",
+              "Offer": "24% OFF"
+          },
+          {
+              "id": "2",
+              "Product_image": "https://www.jiomart.com/images/product/original/599991080/watermelon-kiran-large-premium-indian-1-pc-product-images-o599991080-p591226032-0-202401241847.jpg?im=Resize=(360,360)",
+              "Veg-Symbol": "https://www.jiomart.com/assets/ds2web/jds-icons/icon-veg.svg",
+              "title": "Watermelon Kiran Large Premium Indian 1 Pc (Approx 2.94 kg - 3.92 kg)",
+              "Current_price": "₹79.00",
+              "MRP": "₹110.00",
+              "Offer": "28% OFF"
+          },
+          {
+              "id": "3",
+              "Product_image": "https://www.jiomart.com/images/product/original/599990499/grapes-green-sonaka-premium-indian-pack-500-g-product-images-o599990499-p590882284-0-202207290620.jpg?im=Resize=(360,360)",
+              "Veg-Symbol": "https://www.jiomart.com/assets/ds2web/jds-icons/icon-veg.svg",
+              "title": "Grapes Green Sonaka Premium Indian Pack 500 g",
+              "Current_price": "₹69.00",
+              "MRP": "₹90.00",
+              "Offer": "23% OFF"
+          },
+          {
+              "id": "4",
+              "Product_image": "https://www.jiomart.com/images/product/original/599990279/grapes-red-flame-residue-certified-indian-pack-500-g-product-images-o599990279-p590177457-0-202402081833.jpg?im=Resize=(360,360)",
+              "Veg-Symbol": "https://www.jiomart.com/assets/ds2web/jds-icons/icon-veg.svg",
+              "title": "Grapes Red Flame Residue Certified Indian Pack 500 g",
+              "Current_price": "₹112.00",
+              "MRP": "₹150.00",
+              "Offer": "25% OFF"
+          },
+          {
+              "id": "5",
+              "Product_image": "https://www.jiomart.com/images/product/original/599990007/grapes-green-sonaka-residue-certified-indian-pack-500-g-product-images-o599990007-p590961566-0-202402081833.jpg?im=Resize=(360,360)",
+              "Veg-Symbol": "https://www.jiomart.com/assets/ds2web/jds-icons/icon-veg.svg",
+              "title": "Grapes Green Sonaka Residue Certified Indian Pack 500 g",
+              "Current_price": "₹69.00",
+              "MRP": "₹90.00",
+              "Offer": "23% OFF"
+          },
+          {
+              "id": "6",
+              "Product_image": "https://www.jiomart.com/images/product/original/599991703/assorted-premium-grapes-green-sonaka-grapes-red-flame-500-g-pack-product-images-o599991703-p599668961-0-202303212045.jpg?im=Resize=(360,360)",
+              "Veg-Symbol": "https://www.jiomart.com/assets/ds2web/jds-icons/icon-veg.svg",
+              "title": "Assorted Premium - Grapes Green Sonaka+ Grapes Red Flame",
+              "Current_price": "₹109.00",
+              "MRP": "₹150.00",
+              "Offer": "27% OFF"
+          },
+          {
+              "id": "7",
+              "Product_image": "https://www.jiomart.com/images/product/original/599990811/watermelon-kiran-medium-premium-indian-1-pc-product-images-o599990811-p591189433-0-202401241847.jpg?im=Resize=(360,360)",
+              "Veg-Symbol": "https://www.jiomart.com/assets/ds2web/jds-icons/icon-veg.svg",
+              "title": "Watermelon Kiran Medium Premium Indian 1 Pc (Approx 2.35 kg - 2.94 kg)",
+              "Current_price": "₹72.00",
+              "MRP": "₹100.00",
+              "Offer": "28% OFF"
+          },
+          {
+              "id": "8",
+              "Product_image": "https://www.jiomart.com/images/product/original/599991873/dates-fard-curate-premium-imported-pack-500-g-product-images-o599991873-p606249335-0-202311211554.jpg?im=Resize=(360,360)",
+              "Veg-Symbol": "https://www.jiomart.com/assets/ds2web/jds-icons/icon-veg.svg",
+              "title": "Dates Fard Curate Premium Imported Pack 500 g",
+              "Current_price": "₹229.00",
+              "MRP": "₹400.00",
+              "Offer": "42% OFF"
+          },
+          {
+              "id": "9",
+              "Product_image": "https://www.jiomart.com/images/product/original/599991791/dates-oriental-curate-premium-imported-500-g-pack-product-images-o599991791-p603979495-0-202308191859.jpg?im=Resize=(360,360)",
+              "Veg-Symbol": "https://www.jiomart.com/assets/ds2web/jds-icons/icon-veg.svg",
+              "title": "Dates Oriental Curate Premium Imported 500 g Pack",
+              "Current_price": "₹249.00",
+              "MRP": "₹300.00",
+              "Offer": "17% OFF"
+          },
+          {
+              "id": "10",
+              "Product_image": "https://www.jiomart.com/images/product/original/599990932/blueberry-premium-imported-pack-125-g-product-images-o599990932-p590860270-0-202401241823.jpg?im=Resize=(360,360)",
+              "Veg-Symbol": "https://www.jiomart.com/assets/ds2web/jds-icons/icon-veg.svg",
+              "title": "Blueberry Premium Imported Pack 125 g",
+              "Current_price": "₹299.00",
+              "MRP": "₹350.00",
+              "Offer": "14% OFF"
+          },
+          {
+              "id": "11",
+              "Product_image": "https://www.jiomart.com/images/product/original/599991795/dates-medjoul-curate-premium-imported-500-g-pack-product-images-o599991795-p603979491-0-202308191859.jpg?im=Resize=(360,360)",
+              "Veg-Symbol": "https://www.jiomart.com/assets/ds2web/jds-icons/icon-veg.svg",
+              "title": "Dates Medjoul Curate Premium Imported 500 g Pack",
+              "Current_price": "₹749.00",
+              "MRP": "₹990.00",
+              "Offer": "24% OFF"
+          },
+          {
+              "id": "12",
+              "Product_image": "https://www.jiomart.com/images/product/original/599991191/curate-mango-alphonso-devgad-premium-indian-12-pc-product-images-o599991191-p591021544-0-202309011221.jpg?im=Resize=(360,360)",
+              "Veg-Symbol": "https://www.jiomart.com/assets/ds2web/jds-icons/icon-veg.svg",
+              "title": "Curate Mango Alphonso Devgad Premium Indian 12 Pc (Approx 2.85 kg - 3.32 kg)",
+              "Current_price": "₹1,429.00",
+              "MRP": "₹2,000.00",
+              "Offer": "28% OFF"
+          },
+          {
+              "id": "13",
+              "Product_image": "https://www.jiomart.com/images/product/original/599990880/dragon-fruit-white-premium-imported-1-pc-product-images-o599990880-p591021540-0-202401241848.jpg?im=Resize=(360,360)",
+              "Veg-Symbol": "https://www.jiomart.com/assets/ds2web/jds-icons/icon-veg.svg",
+              "title": "Dragon Fruit White Premium Imported 1 Pc (Approx 390 g - 490 g)",
+              "Current_price": "₹82.00",
+              "MRP": "₹110.00",
+              "Offer": "25% OFF"
+          },
+          {
+              "id": "14",
+              "Product_image": "https://www.jiomart.com/images/product/original/599991705/fig-premium-indian-8-pc-product-images-o599991705-p599673658-0-202401251515.jpg?im=Resize=(360,360)",
+              "title": "Fig Premium Indian 8 Pc (Approx 280 g - 340 g)",
+              "Current_price": "₹79.00",
+              "MRP": "₹100.00",
+              "Offer": "21% OFF"
+          },
+          {
+              "id": "15",
+              "Product_image": "https://www.jiomart.com/images/product/original/599990025/sapota-premium-indian-pack-500-g-product-images-o599990025-p590860313-0-202401251515.jpg?im=Resize=(360,360)",
+              "Veg-Symbol": "https://www.jiomart.com/assets/ds2web/jds-icons/icon-veg.svg",
+              "title": "Sapota Premium Indian Pack 500 g",
+              "Current_price": "₹68.00",
+              "MRP": "₹90.00",
+              "Offer": "24% OFF"
+          },
+          {
+              "id": "16",
+              "Product_image": "https://www.jiomart.com/images/product/original/599991786/pineapple-queen-mini-premium-indian-1-pc-product-images-o599991786-p602987482-0-202401251515.jpg?im=Resize=(360,360)",
+              "Veg-Symbol": "https://www.jiomart.com/assets/ds2web/jds-icons/icon-veg.svg",
+              "title": "Pineapple Queen Mini Premium Indian 1 Pc (Approx 440 g - 640 g)",
+              "Current_price": "₹34.00",
+              "MRP": "₹40.00",
+              "Offer": "15% OFF"
+          },
+          {
+              "id": "17",
+              "Product_image": "https://www.jiomart.com/images/product/original/599990399/banana-yellaki-premium-indian-6-pc-product-images-o599990399-p590860325-0-202401241823.jpg?im=Resize=(360,360)",
+              "Veg-Symbol": "https://www.jiomart.com/assets/ds2web/jds-icons/icon-veg.svg",
+              "title": "Banana Yellaki Premium Indian 6 Pc (Approx 340 g - 490 g)",
+              "Current_price": "₹56.00",
+              "MRP": "₹80.00",
+              "Offer": "30% OFF"
+          },
+          {
+              "id": "18",
+              "Product_image": "https://www.jiomart.com/images/product/original/599990280/grapes-crimson-residue-certified-indian-pack-500-g-product-images-o599990280-p590177456-0-202402081833.jpg?im=Resize=(360,360)",
+              "Veg-Symbol": "https://www.jiomart.com/assets/ds2web/jds-icons/icon-veg.svg",
+              "title": "Grapes Crimson Residue Certified Indian Pack 500 g",
+              "Current_price": "₹159.00",
+              "MRP": "₹200.00",
+              "Offer": "20% OFF"
+          },
+          {
+              "id": "19",
+              "Product_image": "https://www.jiomart.com/images/product/original/599991136/orange-nagpur-premium-indian-6-pc-product-images-o599991136-p591001128-0-202401241847.jpg?im=Resize=(360,360)",
+              "Veg-Symbol": "https://www.jiomart.com/assets/ds2web/jds-icons/icon-veg.svg",
+              "title": "Orange Nagpur Premium Indian 6 Pc (Approx 0.97 kg - 1.15 kg)",
+              "Current_price": "₹98.00",
+              "MRP": "₹120.00",
+              "Offer": "18% OFF"
+          },
+          {
+              "id": "20",
+              "Product_image": "https://www.jiomart.com/images/product/original/599990445/guava-taiwan-pink-premium-indian-2-pc-product-images-o599990445-p593674721-0-202401241848.jpg?im=Resize=(360,360)",
+              "Veg-Symbol": "https://www.jiomart.com/assets/ds2web/jds-icons/icon-veg.svg",
+              "title": "Guava Taiwan Pink Premium Indian 2 Pc (Approx 450 g - 530 g)",
+              "Current_price": "₹65.00",
+              "MRP": "₹80.00",
+              "Offer": "18% OFF"
+          },
+          {
+              "id": "21",
+              "Product_image": "https://www.jiomart.com/images/product/original/599990134/orange-nagpur-premium-indian-4-pc-product-images-o599990134-p593160807-0-202401241847.jpg?im=Resize=(360,360)",
+              "Veg-Symbol": "https://www.jiomart.com/assets/ds2web/jds-icons/icon-veg.svg",
+              "title": "Orange Nagpur Premium Indian 4 Pc (Approx 650 g - 760 g)",
+              "Current_price": "₹66.00",
+              "MRP": "₹90.00",
+              "Offer": "26% OFF"
+          },
+          {
+              "id": "22",
+              "Product_image": "https://www.jiomart.com/images/product/original/599991794/dates-ajwa-curate-premium-imported-500-g-pack-product-images-o599991794-p603979493-0-202308191859.jpg?im=Resize=(360,360)",
+              "Veg-Symbol": "https://www.jiomart.com/assets/ds2web/jds-icons/icon-veg.svg",
+              "title": "Dates Ajwa Curate Premium Imported 500 g Pack",
+              "Current_price": "₹779.00",
+              "MRP": "₹995.00",
+              "Offer": "21% OFF"
+          },
+          {
+              "id": "23",
+              "Product_image": "https://www.jiomart.com/images/product/original/599991275/coconut-tender-premium-indian-3-pc-product-images-o599991275-p591189405-0-202401241847.jpg?im=Resize=(360,360)",
+              "Veg-Symbol": "https://www.jiomart.com/assets/ds2web/jds-icons/icon-veg.svg",
+              "title": "Coconut Tender Premium Indian 3 Pc (Approx 4.48 kg - 5.22 kg)",
+              "Current_price": "₹199.00",
+              "MRP": "₹280.00",
+              "Offer": "28% OFF"
+          },
+          {
+              "id": "24",
+              "Product_image": "https://www.jiomart.com/images/product/original/599990001/grapes-green-thompson-residue-certified-indian-pack-500-g-product-images-o599990001-p590961565-0-202402081833.jpg?im=Resize=(360,360)",
+              "Veg-Symbol": "https://www.jiomart.com/assets/ds2web/jds-icons/icon-veg.svg",
+              "title": "Grapes Green Thompson Residue Certified Indian Pack 500 g",
+              "Current_price": "₹102.00",
+              "MRP": "₹120.00",
+              "Offer": "15% OFF"
+          },
+          {
+              "id": "25",
+              "Product_image": "https://www.jiomart.com/images/product/original/599990004/grapes-black-sharad-residue-certified-indian-pack-500-g-product-images-o599990004-p607611776-0-202401302015.jpg?im=Resize=(360,360)",
+              "Veg-Symbol": "https://www.jiomart.com/assets/ds2web/jds-icons/icon-veg.svg",
+              "title": "Grapes Black Sharad Residue Certified Indian Pack 500 g",
+              "Current_price": "₹122.00",
+              "MRP": "₹160.00",
+              "Offer": "23% OFF"
+          },
+          {
+              "id": "26",
+              "Product_image": "https://www.jiomart.com/images/product/original/599991190/curate-mango-alphonso-devgad-premium-indian-1-pc-product-images-o599991190-p591021543-0-202309011226.jpg?im=Resize=(360,360)",
+              "Veg-Symbol": "https://www.jiomart.com/assets/ds2web/jds-icons/icon-veg.svg",
+              "title": "Curate Mango Alphonso Devgad Premium Indian 1 Pc (Approx 220 g - 290 g)",
+              "Current_price": "₹129.00",
+              "MRP": "₹180.00",
+              "Offer": "28% OFF"
+          },
+          {
+              "id": "27",
+              "Product_image": "https://www.jiomart.com/images/product/original/599991659/mango-alphonso-devgad-premium-indian-4-pc-approx-0-80-kg-1-10-kg-product-images-o599991659-p599232541-0-202303110949.jpg?im=Resize=(360,360)",
+              "Veg-Symbol": "https://www.jiomart.com/assets/ds2web/jds-icons/icon-veg.svg",
+              "title": "Mango Alphonso Devgad Premium Indian 4 Pc (Approx 0.95 kg - 1.11 kg)",
+              "Current_price": "₹499.00",
+              "MRP": "₹700.00",
+              "Offer": "28% OFF"
+          },
+          {
+              "id": "28",
+              "Product_image": "https://www.jiomart.com/images/product/original/599991204/pomegranate-kesar-medium-premium-indian-4-pc-product-images-o599991204-p591041952-0-202401251515.jpg?im=Resize=(360,360)",
+              "Veg-Symbol": "https://www.jiomart.com/assets/ds2web/jds-icons/icon-veg.svg",
+              "title": "Pomegranate Kesar Medium Premium Indian 4 pc (Approx 1.13 kg - 1.32 kg)",
+              "Current_price": "₹445.00",
+              "MRP": "₹599.00",
+              "Offer": "25% OFF"
+          },
+          {
+              "id": "29",
+              "Product_image": "https://www.jiomart.com/images/product/original/599991283/raspberry-pink-premium-indian-pack-100-g-product-images-o599991283-p591195273-0-202401241823.jpg?im=Resize=(360,360)",
+              "Veg-Symbol": "https://www.jiomart.com/assets/ds2web/jds-icons/icon-veg.svg",
+              "title": "Raspberry Pink Premium Indian Pack 100 g",
+              "Current_price": "₹389.00",
+              "MRP": "₹450.00",
+              "Offer": "13% OFF"
+          },
+          {
+              "id": "30",
+              "Product_image": "https://www.jiomart.com/images/product/original/599991961/avocado-hass-premium-imported-1-pc-product-images-o599991961-p607186082-0-202401051132.jpg?im=Resize=(360,360)",
+              "Veg-Symbol": "https://www.jiomart.com/assets/ds2web/jds-icons/icon-veg.svg",
+              "title": "Avocado Hass Premium Imported 1 Pc (Approx 270 g - 320 g)",
+              "Current_price": "₹219.00",
+              "MRP": "₹300.00",
+              "Offer": "27% OFF"
+          },
+          {
+              "id": "31",
+              "Product_image": "https://www.jiomart.com/images/product/original/599991965/avocado-hass-bites-premium-imported-2-pc-product-images-o599991965-p607186155-0-202401051149.jpg?im=Resize=(360,360)",
+              "Veg-Symbol": "https://www.jiomart.com/assets/ds2web/jds-icons/icon-veg.svg",
+              "title": "Avocado Hass Bites Premium Imported 2 Pc (Approx 320 g - 380 g)",
+              "Current_price": "₹215.00",
+              "MRP": "₹290.00",
+              "Offer": "25% OFF"
+          },
+          {
+              "id": "32",
+              "Product_image": "https://www.jiomart.com/images/product/original/599991192/curate-mango-alphonso-devgad-premium-indian-6-pc-product-images-o599991192-p591021545-0-202309011226.jpg?im=Resize=(360,360)",
+              "Veg-Symbol": "https://www.jiomart.com/assets/ds2web/jds-icons/icon-veg.svg",
+              "title": "Curate Mango Alphonso Devgad Premium Indian 6 Pc (Approx 1.42 kg - 1.67 kg)",
+              "Current_price": "₹729.00",
+              "MRP": "₹1,000.00",
+              "Offer": "27% OFF"
+          },
+          {
+              "id": "33",
+              "Product_image": "https://www.jiomart.com/images/product/original/599991693/watermelon-arohi-yellow-flesh-mini-premium-indian-1-pc-approx-1-80-kg-2-40-kg-product-images-o599991693-p599331758-0-202304281804.jpg?im=Resize=(360,360)",
+              "Veg-Symbol": "https://www.jiomart.com/assets/ds2web/jds-icons/icon-veg.svg",
+              "title": "Watermelon Arohi Yellow Flesh Mini Premium Indian 1 Pc  (Approx 1.76 kg - 2.35 kg)",
+              "Current_price": "₹109.00",
+              "MRP": "₹140.00",
+              "Offer": "22% OFF"
+          },
+          {
+              "id": "34",
+              "Product_image": "https://www.jiomart.com/images/product/original/599991264/pear-packham-premium-imported-4-pc-product-images-o599991264-p591057892-0-202401251515.jpg?im=Resize=(360,360)",
+              "Veg-Symbol": "https://www.jiomart.com/assets/ds2web/jds-icons/icon-veg.svg",
+              "title": "Pear Packham Premium Imported 4 Pc (Approx 650 g - 760 g)",
+              "Current_price": "₹152.00",
+              "MRP": "₹180.00",
+              "Offer": "15% OFF"
+          },
+          {
+              "id": "35",
+              "Product_image": "https://www.jiomart.com/images/product/original/599991056/watermelon-arohi-yellow-flesh-medium-premium-indian-1-pc-approx-2-40-kg-3-00-kg-product-images-o599991056-p590950407-0-202304281838.jpg?im=Resize=(360,360)",
+              "Veg-Symbol": "https://www.jiomart.com/assets/ds2web/jds-icons/icon-veg.svg",
+              "title": "Watermelon Arohi Yellow Flesh Medium Premium Indian 1 Pc (Approx 2.35 kg - 3.19 kg)",
+              "Current_price": "₹139.00",
+              "MRP": "₹180.00",
+              "Offer": "22% OFF"
+          },
+          {
+              "id": "36",
+              "Product_image": "https://www.jiomart.com/images/product/original/599991972/apple-inored-epli-premium-imported-6-pc-product-images-o599991972-p608363038-0-202403051710.jpg?im=Resize=(360,360)",
+              "Veg-Symbol": "https://www.jiomart.com/assets/ds2web/jds-icons/icon-veg.svg",
+              "title": "Apple Inored Epli Premium Imported 6 Pc (Approx 0.97 kg - 1.15 kg)",
+              "Current_price": "₹319.00",
+              "MRP": "₹400.00",
+              "Offer": "20% OFF"
+          },
+          {
+              "id": "37",
+              "Product_image": "https://www.jiomart.com/images/product/original/599991882/pomegranate-kesar-medium-premium-indian-3-pc-product-images-o599991882-p604584183-0-202401251515.jpg?im=Resize=(360,360)",
+              "Veg-Symbol": "https://www.jiomart.com/assets/ds2web/jds-icons/icon-veg.svg",
+              "title": "Pomegranate Kesar Medium Premium Indian 3 Pc (Approx 840 g - 990 g)",
+              "Current_price": "₹339.00",
+              "MRP": "₹430.00",
+              "Offer": "21% OFF"
+          },
+          {
+              "id": "38",
+              "Product_image": "https://www.jiomart.com/images/product/original/599990347/coconut-madras-jumbo-premium-indian-1-pc-product-images-o599990347-p590860295-0-202401241847.jpg?im=Resize=(360,360)",
+              "Veg-Symbol": "https://www.jiomart.com/assets/ds2web/jds-icons/icon-veg.svg",
+              "title": "Coconut Madras Jumbo Premium Indian 1 Pc (Approx 690 g - 880 g)",
+              "Current_price": "₹58.00",
+              "MRP": "₹80.00",
+              "Offer": "27% OFF"
+          },
+          {
+              "id": "39",
+              "Product_image": "https://www.jiomart.com/images/product/original/599991808/banana-red-premium-indian-3-pc-product-images-o599991808-p603154146-0-202401241847.jpg?im=Resize=(360,360)",
+              "Veg-Symbol": "https://www.jiomart.com/assets/ds2web/jds-icons/icon-veg.svg",
+              "title": "Banana Red Premium Indian 3 pc (Approx 390 g - 590 g)",
+              "Current_price": "₹65.00",
+              "MRP": "₹90.00",
+              "Offer": "27% OFF"
+          },
+          {
+              "id": "40",
+              "Product_image": "https://www.jiomart.com/images/product/original/599991700/mini-orange-mandarin-premium-imported-12-pc-approx-1-45-kg-1-80-kg-product-images-o599991700-p599668609-0-202303212038.jpg?im=Resize=(360,360)",
+              "Veg-Symbol": "https://www.jiomart.com/assets/ds2web/jds-icons/icon-veg.svg",
+              "title": "Mini Orange Mandarin Premium Imported 12 Pc (Approx 1.57 kg - 1.84 kg)",
+              "Current_price": "₹289.00",
+              "MRP": "₹400.00",
+              "Offer": "27% OFF"
+          },
+          {
+              "id": "41",
+              "Product_image": "https://www.jiomart.com/images/product/original/599990533/coconut-tender-premium-indian-1-pc-product-images-o599990533-p590860388-0-202401241847.jpg?im=Resize=(360,360)",
+              "Veg-Symbol": "https://www.jiomart.com/assets/ds2web/jds-icons/icon-veg.svg",
+              "title": "Coconut Tender Premium Indian 1 Pc (Approx 1.08 kg - 2.16 kg)",
+              "Current_price": "₹68.00",
+              "MRP": "₹90.00",
+              "Offer": "24% OFF"
+          },
+          {
+              "id": "42",
+              "Product_image": "https://www.jiomart.com/images/product/original/599991055/watermelon-seedless-large-premium-indian-1-pc-product-images-o599991055-p590950405-0-202401241847.jpg?im=Resize=(360,360)",
+              "Veg-Symbol": "https://www.jiomart.com/assets/ds2web/jds-icons/icon-veg.svg",
+              "title": "Watermelon Seedless Large Premium Indian 1 Pc (Approx 3.19 kg - 3.92 kg)",
+              "Current_price": "₹189.00",
+              "MRP": "₹230.00",
+              "Offer": "17% OFF"
+          },
+          {
+              "id": "43",
+              "Product_image": "https://www.jiomart.com/images/product/original/599991242/kiwi-green-premium-imported-3-pc-approx-270-g-330-g-product-images-o599991242-p591189387-0-202305251116.jpg?im=Resize=(360,360)",
+              "Veg-Symbol": "https://www.jiomart.com/assets/ds2web/jds-icons/icon-veg.svg",
+              "title": "Kiwi Green Premium Imported 3 Pc (Approx 300 g - 370 g)",
+              "Current_price": "₹141.00",
+              "MRP": "₹180.00",
+              "Offer": "21% OFF"
+          },
+          {
+              "id": "44",
+              "Product_image": "https://www.jiomart.com/images/product/original/599990755/longan-premium-imported-pack-400-g-product-images-o599990755-p590860282-0-202401251515.jpg?im=Resize=(360,360)",
+              "Veg-Symbol": "https://www.jiomart.com/assets/ds2web/jds-icons/icon-veg.svg",
+              "title": "Longan Premium Imported Pack 400 g",
+              "Current_price": "₹212.00",
+              "MRP": "₹250.00",
+              "Offer": "15% OFF"
+          },
+          {
+              "id": "45",
+              "Product_image": "https://www.jiomart.com/images/product/original/599990519/grapes-black-jumbo-residue-certified-indian-pack-500-g-product-images-o599990519-p590177455-0-202402081834.jpg?im=Resize=(360,360)",
+              "Veg-Symbol": "https://www.jiomart.com/assets/ds2web/jds-icons/icon-veg.svg",
+              "title": "Grapes Black Jumbo Residue Certified Indian Pack 500 g",
+              "Current_price": "₹129.00",
+              "MRP": "₹150.00",
+              "Offer": "14% OFF"
+          },
+          {
+              "id": "46",
+              "Product_image": "https://www.jiomart.com/images/product/original/599991127/apple-red-delicious-usa-premium-imported-4-pc-product-images-o599991127-p591001139-0-202401241848.jpg?im=Resize=(360,360)",
+              "Veg-Symbol": "https://www.jiomart.com/assets/ds2web/jds-icons/icon-veg.svg",
+              "title": "Apple Red Delicious USA Premium Imported 4 Pc (Approx 730 g - 840 g)",
+              "Current_price": "₹251.00",
+              "MRP": "₹320.00",
+              "Offer": "21% OFF"
+          },
+          {
+              "id": "47",
+              "Product_image": "https://www.jiomart.com/images/product/original/599990682/blueberry-premium-indian-pack-125-g-product-images-o599990682-p591222931-0-202304180643.jpg?im=Resize=(360,360)",
+              "Veg-Symbol": "https://www.jiomart.com/assets/ds2web/jds-icons/icon-veg.svg",
+              "title": "Blueberry Premium Indian Pack 125 g",
+              "Current_price": "₹199.00",
+              "MRP": "₹260.00",
+              "Offer": "23% OFF"
+          },
+          {
+              "id": "48",
+              "Product_image": "https://www.jiomart.com/images/product/original/599991792/dates-safavi-curate-premium-imported-500-g-pack-product-images-o599991792-p603979490-0-202308191859.jpg?im=Resize=(360,360)",
+              "Veg-Symbol": "https://www.jiomart.com/assets/ds2web/jds-icons/icon-veg.svg",
+              "title": "Dates Safavi Curate Premium Imported 500 g Pack",
+              "Current_price": "₹529.00",
+              "MRP": "₹650.00",
+              "Offer": "18% OFF"
+          },
+          {
+              "id": "49",
+              "Product_image": "https://www.jiomart.com/images/product/original/599990775/sweet-tamarind-premium-imported-pack-250-g-product-images-o599990775-p590968389-0-202401251515.jpg?im=Resize=(360,360)",
+              "Veg-Symbol": "https://www.jiomart.com/assets/ds2web/jds-icons/icon-veg.svg",
+              "title": "Sweet Tamarind Premium Imported Pack 250 g",
+              "Current_price": "₹169.00",
+              "MRP": "₹230.00",
+              "Offer": "26% OFF"
+          },
+          {
+              "id": "50",
+              "Product_image": "https://www.jiomart.com/images/product/original/599991996/orange-nagpur-premium-indian-1-kg-product-images-o599991996-p607985545-0-202402151051.jpg?im=Resize=(360,360)",
+              "Veg-Symbol": "https://www.jiomart.com/assets/ds2web/jds-icons/icon-veg.svg",
+              "title": "Orange Nagpur Premium Indian 1 Kg (Approx 1 kg)",
+              "Current_price": "₹85.00",
+              "MRP": "₹100.00",
+              "Offer": "15% OFF"
+          },
+          {
+              "id": "51",
+              "Product_image": "https://www.jiomart.com/images/product/original/599991592/longan-premium-imported-pack-200-g-product-images-o599991592-p595504842-0-202401251515.jpg?im=Resize=(360,360)",
+              "Veg-Symbol": "https://www.jiomart.com/assets/ds2web/jds-icons/icon-veg.svg",
+              "title": "Longan Premium Imported Pack 200 g",
+              "Current_price": "₹112.00",
+              "MRP": "₹160.00",
+              "Offer": "30% OFF"
+          },
+          {
+              "id": "52",
+              "Product_image": "https://www.jiomart.com/images/product/original/599990807/watermelon-seedless-medium-premium-indian-1-pc-product-images-o599990807-p591043464-0-202401241847.jpg?im=Resize=(360,360)",
+              "Veg-Symbol": "https://www.jiomart.com/assets/ds2web/jds-icons/icon-veg.svg",
+              "title": "Watermelon Seedless Medium Premium Indian 1 Pc (Approx 2.35 kg - 3.19 kg)",
+              "Current_price": "₹149.00",
+              "MRP": "₹190.00",
+              "Offer": "21% OFF"
+          },
+          {
+              "id": "53",
+              "Product_image": "https://www.jiomart.com/images/product/original/599991139/orange-valencia-premium-imported-4-pc-approx-760-g-920-g-product-images-o599991139-p591001127-0-202304281818.jpg?im=Resize=(360,360)",
+              "Veg-Symbol": "https://www.jiomart.com/assets/ds2web/jds-icons/icon-veg.svg",
+              "title": "Orange Valencia Premium Imported 4 Pc (Approx 730 g - 840 g)",
+              "Current_price": "₹136.00",
+              "MRP": "₹180.00",
+              "Offer": "24% OFF"
+          },
+          {
+              "id": "54",
+              "Product_image": "https://www.jiomart.com/images/product/original/599991058/watermelon-vishala-premium-medium-indian-1-pc-approx-2-40-kg-3-00-kg-product-images-o599991058-p590950408-0-202304180745.jpg?im=Resize=(360,360)",
+              "Veg-Symbol": "https://www.jiomart.com/assets/ds2web/jds-icons/icon-veg.svg",
+              "title": "Watermelon Vishala Premium Medium Indian 1 Pc (Approx 2.35 kg - 3.19 kg)",
+              "Current_price": "₹159.00",
+              "MRP": "₹200.00",
+              "Offer": "20% OFF"
+          },
+          {
+              "id": "55",
+              "Product_image": "https://www.jiomart.com/images/product/original/599991197/orange-navel-premium-imported-6-pc-approx-1-15-kg-1-38-kg-product-images-o599991197-p591021552-0-202304281807.jpg?im=Resize=(360,360)",
+              "Veg-Symbol": "https://www.jiomart.com/assets/ds2web/jds-icons/icon-veg.svg",
+              "title": "Orange Navel Premium Imported 6 Pc (Approx 1.3 kg - 1.52 kg)",
+              "Current_price": "₹219.00",
+              "MRP": "₹250.00",
+              "Offer": "12% OFF"
+          },
+          {
+              "id": "56",
+              "Product_image": "https://www.jiomart.com/images/product/original/599990933/blueberry-premium-imported-pack-250-g-product-images-o599990933-p590860345-0-202401241823.jpg?im=Resize=(360,360)",
+              "Veg-Symbol": "https://www.jiomart.com/assets/ds2web/jds-icons/icon-veg.svg",
+              "title": "Blueberry Premium Imported Pack 250 g",
+              "Current_price": "₹589.00",
+              "MRP": "₹670.00",
+              "Offer": "12% OFF"
+          },
+          {
+              "id": "57",
+              "Product_image": "https://www.jiomart.com/images/product/original/599991093/pomegranate-kesar-medium-premium-indian-6-pc-product-images-o599991093-p590959477-0-202401251515.jpg?im=Resize=(360,360)",
+              "Veg-Symbol": "https://www.jiomart.com/assets/ds2web/jds-icons/icon-veg.svg",
+              "title": "Pomegranate Kesar Medium Premium Indian 6 pc (Approx 1.7 kg - 1.98 kg)",
+              "Current_price": "₹639.00",
+              "MRP": "₹899.00",
+              "Offer": "28% OFF"
+          },
+          {
+              "id": "58",
+              "Product_image": "https://www.jiomart.com/images/product/original/599991778/pineapple-queen-premium-indian-1-pc-product-images-o599991778-p602987484-0-202401251515.jpg?im=Resize=(360,360)",
+              "Veg-Symbol": "https://www.jiomart.com/assets/ds2web/jds-icons/icon-veg.svg",
+              "title": "Pineapple Queen Premium Indian 1 Pc (Approx 1.18 kg - 1.47 kg)",
+              "Current_price": "₹109.00",
+              "MRP": "₹140.00",
+              "Offer": "22% OFF"
+          },
+          {
+              "id": "59",
+              "Product_image": "https://www.jiomart.com/images/product/original/599991962/avocado-hass-premium-imported-3-pc-product-images-o599991962-p607186083-0-202401051137.jpg?im=Resize=(360,360)",
+              "Veg-Symbol": "https://www.jiomart.com/assets/ds2web/jds-icons/icon-veg.svg",
+              "title": "Avocado Hass Premium Imported 3 Pc (Approx 820 g - 970 g)",
+              "Current_price": "₹649.00",
+              "MRP": "₹750.00",
+              "Offer": "13% OFF"
+          },
+          {
+              "id": "60",
+              "Veg-Symbol": "https://www.jiomart.com/assets/ds2web/jds-icons/icon-veg.svg",
+              "title": "Blueberry Premium Imported Pack 500 g",
+              "Current_price": "₹1,162.00",
+              "MRP": "₹1,400.00",
+              "Offer": "17% OFF"
+          }
+      ],
+  "Kitchen":[],
+  "Fashion":[],
+  "Electronics":[]
+
 }

@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="../Styles/products.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
@@ -17,298 +18,345 @@
     <!-- middle section  -->
     <div id="container">
         <!-- home section  -->
-        <div id="home"></div>
+
+        <div id="home">
+            Home <i class="fa-solid fa-greater-than"></i> All Categories <i class="fa-solid fa-greater-than"></i>
+            Groceries
+        </div>
+
         <!-- category section  -->
-        <div id="category-part">
-            <div id="category">
-                <div class="accordion" id="accordionExample">
-                    <div class="accordion-item">
-                        <h2 class="accordion-header">
-                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+        <div id="product-middle">
 
-                                Fruits &amp; Vegetables
+            <div id="category-part">
+                <h1 id="h1-cat">Category</h1>
+                <div id="category">
+                    <div class="accordion" id="accordionExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
 
-                            </button>
-                        </h2>
-                        <div id="collapseOne" class="accordion-collapse collapse show"
-                            data-bs-parent="#accordionExample">
-                            <div class="accordion-body">
-                                <option value="">Fresh Vegetables</option>
-                                <option value="">Fresh Fruits</option>
-                                <option value="">Premium Fruits</option>
-                                <option value="">Herbs &amp; Seasonings</option>
-                                <option value="">Exotic Fruits &amp; Vegetables</option>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="accordion-item">
-                        <h2 class="accordion-header">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                Dairy &amp; Bakery
-                            </button>
-                        </h2>
-                        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                            <div class="accordion-body">
-                                <option value="">Dairy</option>
-                                <option value="">Toast &amp; Khari</option>
-                                <option value="">Cakes &amp; Muffins</option>
-                                <option value="">Baked Cookies</option>
-                                <option value="">Bakery Snacks</option>
-                                <option value="">Batter &amp; Chutney</option>
-                                <option value="">Frozen Veggies &amp; Snacks</option>
-                                <option value="">Cheese</option>
-                                <option value="">Ghee</option>
-                                <option value="">Paneer &amp; Tofu</option>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="accordion-item">
-                        <h2 class="accordion-header">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    Fruits &amp; Vegetables
 
-                                Staples
-                            </button>
-                        </h2>
-                        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                            <div class="accordion-body">
-                                <option value="">Dals &amp; Pulses</option>
-                                <option value="">Rice &amp; Rice Products</option>
-                                <option value="">Edible Oils</option>
-                                <option value="">Masalas &amp; Spices</option>
-                                <option value="">Salt, Sugar &amp; Jaggery</option>
-                                <option value="">Soya Products, Wheat &amp; Other Grains</option>
-                                <option value="">Dry Fruits &amp; Nuts</option>
-                                <option value="">Combo Offer</option>
-                                <option value="">Ghee</option>
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <option value="">Fresh Vegetables</option>
+                                    <option value="">Fresh Fruits</option>
+                                    <option value="">Premium Fruits</option>
+                                    <option value="">Herbs &amp; Seasonings</option>
+                                    <option value="">Exotic Fruits &amp; Vegetables</option>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    
-<!-- Snacks & Branded Foods
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    Dairy &amp; Bakery
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <option value="">Dairy</option>
+                                    <option value="">Toast &amp; Khari</option>
+                                    <option value="">Cakes &amp; Muffins</option>
+                                    <option value="">Baked Cookies</option>
+                                    <option value="">Bakery Snacks</option>
+                                    <option value="">Batter &amp; Chutney</option>
+                                    <option value="">Frozen Veggies &amp; Snacks</option>
+                                    <option value="">Cheese</option>
+                                    <option value="">Ghee</option>
+                                    <option value="">Paneer &amp; Tofu</option>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
 
-Beverages
-
-Personal Care
-
-Home Care
-
-Apparel
-
-Home & Kitchen -->
-                    <div class="accordion-item">
-                        <h2 class="accordion-header">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                Snacks &amp; Branded Foods
-                            </button>
-                        </h2>
-                        <div id="collapsefour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                            <div class="accordion-body">
-
-
-Snacks & Namkeen
-Chocolates & Candies
-                                <option value="">Biscuits & Cookies</option>
-                                <option value="">Noodle, Pasta, Vermicelli</option>
-                                <option value="">Breakfast Cereals</option>
-                                <option value=""></option>
-                                <option value=""></option>
+                                    Staples
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <option value="">Dals &amp; Pulses</option>
+                                    <option value="">Rice &amp; Rice Products</option>
+                                    <option value="">Edible Oils</option>
+                                    <option value="">Masalas &amp; Spices</option>
+                                    <option value="">Salt, Sugar &amp; Jaggery</option>
+                                    <option value="">Soya Products, Wheat &amp; Other Grains</option>
+                                    <option value="">Dry Fruits &amp; Nuts</option>
+                                    <option value="">Combo Offer</option>
+                                    <option value="">Ghee</option>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="accordion-item">
-                        <h2 class="accordion-header">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                Accordion Item #3
-                            </button>
-                        </h2>
-                        <div id="collapsefive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                            <div class="accordion-body">
-                                <strong>This is the third item's accordion body.</strong> It is hidden by default, until
-                                the collapse plugin adds the appropriate classes that we use to style each element.
-                                These classes control the overall appearance, as well as the showing and hiding via CSS
-                                transitions. You can modify any of this with custom CSS or overriding our default
-                                variables. It's also worth noting that just about any HTML can go within the
-                                <code>.accordion-body</code>, though the transition does limit overflow.
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                    Snacks &amp; Branded Foods
+                                </button>
+                            </h2>
+                            <div id="collapseFour" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <option value="">Biscuits &amp; Cookies</option>
+                                    <option value="">Noodle, Pasta, Vermicelli</option>
+                                    <option value="">Breakfast Cereals</option>
+                                    <option value="">Snacks &amp; Namkeen</option>
+                                    <option value="">Chocolates &amp; Candies</option>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="accordion-item">
-                        <h2 class="accordion-header">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                Accordion Item #3
-                            </button>
-                        </h2>
-                        <div id="collapsesix" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                            <div class="accordion-body">
-                                <strong>This is the third item's accordion body.</strong> It is hidden by default, until
-                                the collapse plugin adds the appropriate classes that we use to style each element.
-                                These classes control the overall appearance, as well as the showing and hiding via CSS
-                                transitions. You can modify any of this with custom CSS or overriding our default
-                                variables. It's also worth noting that just about any HTML can go within the
-                                <code>.accordion-body</code>, though the transition does limit overflow.
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapsefive" aria-expanded="false" aria-controls="collapsefive">
+                                    Beverages
+                                </button>
+                            </h2>
+                            <div id="collapsefive" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <option value="">Tea</option>
+                                    <option value="">Coffee</option>
+                                    <option value="">Fruit juices</option>
+                                    <option value="">Energy &amp; Soft Drinks</option>
+                                    <option value="">Health Drink &amp; Supplement</option>
+                                    <option value="">Soda &amp; Flavoured Water</option>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="accordion-item">
-                        <h2 class="accordion-header">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                Accordion Item #3
-                            </button>
-                        </h2>
-                        <div id="collapseseven" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                            <div class="accordion-body">
-                                <strong>This is the third item's accordion body.</strong> It is hidden by default, until
-                                the collapse plugin adds the appropriate classes that we use to style each element.
-                                These classes control the overall appearance, as well as the showing and hiding via CSS
-                                transitions. You can modify any of this with custom CSS or overriding our default
-                                variables. It's also worth noting that just about any HTML can go within the
-                                <code>.accordion-body</code>, though the transition does limit overflow.
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapsesix" aria-expanded="false" aria-controls="collapsesix">
+                                    Personal Care
+                                </button>
+                            </h2>
+                            <div id="collapsesix" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <option value="">Hair Care</option>
+                                    <option value="">Oral Care</option>
+                                    <option value="">Skin Care</option>
+                                    <option value="">Bath &amp; Hand Wash</option>
+                                    <option value="">Body Wash &amp; Bathing Accessories</option>
+                                    <option value="">Feminine Hygiene</option>
+                                    <option value="">Men's Grooming</option>
+                                    <option value="">Deo &amp; Fragrances</option>
+                                    <option value="">Health &amp; Wellness</option>
+                                    <option value="">Makeup</option>
+                                    <option value="">Covid Essentials</option>
+                                    <option value="">Personal Care Tools</option>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="accordion-item">
-                        <h2 class="accordion-header">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                Accordion Item #3
-                            </button>
-                        </h2>
-                        <div id="collapseeight" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                            <div class="accordion-body">
-                                <strong>This is the third item's accordion body.</strong> It is hidden by default, until
-                                the collapse plugin adds the appropriate classes that we use to style each element.
-                                These classes control the overall appearance, as well as the showing and hiding via CSS
-                                transitions. You can modify any of this with custom CSS or overriding our default
-                                variables. It's also worth noting that just about any HTML can go within the
-                                <code>.accordion-body</code>, though the transition does limit overflow.
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseseven" aria-expanded="false" aria-controls="collapseseven">
+                                    Home Care
+                                </button>
+                            </h2>
+                            <div id="collapseseven" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <option value="">Detergents</option>
+                                    <option value="">Dishwash</option>
+                                    <option value="">All Purpose Cleaners</option>
+                                    <option value="">Fresheners &amp; Repellents</option>
+                                    <option value="">Shoe Care</option>
+                                    <option value="">Pet Supplies </option>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="accordion-item">
-                        <h2 class="accordion-header">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                Accordion Item #3
-                            </button>
-                        </h2>
-                        <div id="collapsenine" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                            <div class="accordion-body">
-                                <strong>This is the third item's accordion body.</strong> It is hidden by default, until
-                                the collapse plugin adds the appropriate classes that we use to style each element.
-                                These classes control the overall appearance, as well as the showing and hiding via CSS
-                                transitions. You can modify any of this with custom CSS or overriding our default
-                                variables. It's also worth noting that just about any HTML can go within the
-                                <code>.accordion-body</code>, though the transition does limit overflow.
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseeight" aria-expanded="false" aria-controls="collapseeight">
+                                    Apparel
+                                </button>
+                            </h2>
+                            <div id="collapseeight" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <option value="">Menswear</option>
+                                    <option value="">Womenswear</option>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="accordion-item">
-                        <h2 class="accordion-header">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                Accordion Item #3
-                            </button>
-                        </h2>
-                        <div id="collapseTen" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                            <div class="accordion-body">
-                                <strong>This is the third item's accordion body.</strong> It is hidden by default, until
-                                the collapse plugin adds the appropriate classes that we use to style each element.
-                                These classes control the overall appearance, as well as the showing and hiding via CSS
-                                transitions. You can modify any of this with custom CSS or overriding our default
-                                variables. It's also worth noting that just about any HTML can go within the
-                                <code>.accordion-body</code>, though the transition does limit overflow.
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapsenine" aria-expanded="false" aria-controls="collapsenine">
+                                    Home &amp; Kitchen
+                                </button>
+                            </h2>
+                            <div id="collapsenine" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <option value="">Kitchenware</option>
+                                    <option value="">Dining</option>
+                                    <option value="">Furnishing</option>
+                                    <option value="">Home Decor</option>
+                                    <option value="">Furniture</option>
+                                    <option value="">Home Appliances</option>
+                                    <option value="">Toys, Games &amp; Fitness</option>
+                                    <option value="">Electrical</option>
+                                    <option value="">Bathroom &amp; Laundry Accessories</option>
+                                    <option value="">Disposables</option>
+                                    <option value="">Stationery</option>
+                                    <option value="">Bags &amp; Travel Luggage</option>
+                                    <option value="">Mops, Brushes &amp; Scrubs</option>
+                                    <option value="">Auto Care</option>
+                                    <option value="">Garden &amp; Outdoor</option>
+                                    <option value="">Carpentry &amp; work accessories</option>
+                                    <option value="">Pooja Needs</option>
+                                    <option value="">Industrial &amp; Scientific Supplies</option>
+                                    <option value="">Building Supplies &amp; Measuring Tools</option>
+                                    <option value="">Hardware &amp; Plumbing</option>
+                                    <option value="">Home Safety &amp; Automation</option>
+                                    <option value="">Kitchen &amp; Bath Fixtures</option>
+                                    <option value="">Packaging Supplies</option>
+                                    <option value="">Paint, Wall Treatments &amp; Supplies</option>
+                                    <option value="">Power &amp; Hand Tools</option>
+                                    <option value="">Handloom &amp; Handicraft</option>
+                                    <option value="">Personal Wear</option>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="accordion-item">
-                        <h2 class="accordion-header">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                Accordion Item #3
-                            </button>
-                        </h2>
-                        <div id="collapseeleven" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                            <div class="accordion-body">
-                                <strong>This is the third item's accordion body.</strong> It is hidden by default, until
-                                the collapse plugin adds the appropriate classes that we use to style each element.
-                                These classes control the overall appearance, as well as the showing and hiding via CSS
-                                transitions. You can modify any of this with custom CSS or overriding our default
-                                variables. It's also worth noting that just about any HTML can go within the
-                                <code>.accordion-body</code>, though the transition does limit overflow.
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
+                                    Mom &amp; Baby Care
+                                </button>
+                            </h2>
+                            <div id="collapseTen" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <option value="">Feeding</option>
+                                    <option value="">Baby Grooming</option>
+                                    <option value="">Baby Bedding Sets &amp; Pillows</option>
+                                    <option value="">Baby Food &amp; Formula</option>
+                                    <option value="">Baby Bath &amp; Hygiene</option>
+                                    <option value="">Diapers &amp; Wipes</option>
+                                    <option value="">Health &amp; Wellness</option>
+                                    <option value="">Feeding Accessories</option>
+                                    <option value="">Child Proof &amp; Safety</option>
+                                    <option value="">Baby Gear</option>
+                                    <option value="">Baby Furnishing</option>
+                                    <option value="">Baby Furniture</option>
+                                    <option value="">Baby Toys</option>
+                                    <option value="">Mom &amp; Maternity</option>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="accordion-item">
-                        <h2 class="accordion-header">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                Accordion Item #3
-                            </button>
-                        </h2>
-                        <div id="collapsetwelve" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                            <div class="accordion-body">
-                                <strong>This is the third item's accordion body.</strong> It is hidden by default, until
-                                the collapse plugin adds the appropriate classes that we use to style each element.
-                                These classes control the overall appearance, as well as the showing and hiding via CSS
-                                transitions. You can modify any of this with custom CSS or overriding our default
-                                variables. It's also worth noting that just about any HTML can go within the
-                                <code>.accordion-body</code>, though the transition does limit overflow.
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseeleven" aria-expanded="false"
+                                    aria-controls="collapseeleven">
+                                    Books
+                                </button>
+                            </h2>
+                            <div id="collapseeleven" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <option value="">Children's Books</option>
+                                    <option value="">Fiction Books</option>
+                                    <option value="">School Textbooks</option>
+                                    <option value="">Non Fiction Books</option>
+                                    <option value="">Exam Central</option>
+                                    <option value="">Textbooks</option>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="accordion-item">
-                        <h2 class="accordion-header">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                Accordion Item #3
-                            </button>
-                        </h2>
-                        <div id="collapseThirteen" class="accordion-collapse collapse"
-                            data-bs-parent="#accordionExample">
-                            <div class="accordion-body">
-                                <strong>This is the third item's accordion body.</strong> It is hidden by default, until
-                                the collapse plugin adds the appropriate classes that we use to style each element.
-                                These classes control the overall appearance, as well as the showing and hiding via CSS
-                                transitions. You can modify any of this with custom CSS or overriding our default
-                                variables. It's also worth noting that just about any HTML can go within the
-                                <code>.accordion-body</code>, though the transition does limit overflow.
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapsetwelve" aria-expanded="false"
+                                    aria-controls="collapsetwelve">
+                                    Pets
+                                </button>
+                            </h2>
+                            <div id="collapsetwelve" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <option value="">Dogs</option>
+                                    <option value="">Cats</option>
+                                    <option value="">Fish &amp; Aquatics</option>
+                                    <option value="">Birds</option>
+                                    <option value="">Other Pets</option>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="accordion-item">
-                        <h2 class="accordion-header">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                Accordion Item #3
-                            </button>
-                        </h2>
-                        <div id="collapsefourteen" class="accordion-collapse collapse"
-                            data-bs-parent="#accordionExample">
-                            <div class="accordion-body">
-                                <strong>This is the third item's accordion body.</strong> It is hidden by default, until
-                                the collapse plugin adds the appropriate classes that we use to style each element.
-                                These classes control the overall appearance, as well as the showing and hiding via CSS
-                                transitions. You can modify any of this with custom CSS or overriding our default
-                                variables. It's also worth noting that just about any HTML can go within the
-                                <code>.accordion-body</code>, though the transition does limit overflow.
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseThirteen" aria-expanded="false"
+                                    aria-controls="collapseThirteen">
+                                    Beauty
+                                </button>
+                            </h2>
+                            <div id="collapseThirteen" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <option value="">Mom &amp; Kids</option>
+                                    <option value="">Personal Care</option>
+                                    <option value="">Skin Care</option>
+                                    <option value="">Tools &amp; Appliances</option>
+                                    <option value="">Wellness</option>
+                                    <option value="">Fragrances</option>
+                                    <option value="">Hair</option>
+                                    <option value=""> Make-Up</option>
+                                    <option value="">Men's Grooming</option>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapsefourteen" aria-expanded="false"
+                                    aria-controls="collapsefourteen">
+                                    Kitchenware
+                                </button>
+                            </h2>
+                            <div id="collapsefourteen" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <option value="">Kitchen Tools</option>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
+
+
+                <div id="filter">
+                    <div id="availability"></div>
+                    <div id="categories-filter"></div>
+                    <div id="brands"></div>
+                    <div id="price"></div>
+                </div>
             </div>
-            <div id="filter"></div>
-            <div id="brands"></div>
-            <div id="price"></div>
+
+            <!-- main product section grid  -->
+
+            <div id="product-grid">
+                <div class="poster"></div>
+                <div id="products-card"></div>
+            </div>
+
         </div>
-        <!-- main product section grid  -->
-        <div id="product-grid"></div>
 
 
 

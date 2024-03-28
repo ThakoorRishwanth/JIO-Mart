@@ -1,11 +1,8 @@
 {
-    "Product":[{
-        "id":"1",
-        "name":"Oil",
-        "price":150
-    },
-{
-    "id":"2",
-    "name":"wheat"
-}]
+  "products":[{
+    "id":"1",
+    "title": "Grocery",
+    "name":"oil",
+    "price":150
+  }]
 }

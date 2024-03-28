@@ -14,19 +14,22 @@
     #footers{
          display: flex;
          flex-wrap: wrap;
-        gap: 50px;
+        gap: 30px;
+        justify-content: space-between;
+        /* align-items: center; */
         margin-bottom: 50px;
-    justify-content: space-between;
-            font-family: Arial, Helvetica, sans-serif;
+    
+        
         
     
     }
-    
-    footer{
-        margin-left: 100px;
-        margin-right: 100px;
-    
-    }
+     body{
+        
+            margin-left: 100px;
+            margin-right: 100px;
+            font-family: Arial, Helvetica, sans-serif;
+        
+     }
     
      
     #footers>div>a:hover{
@@ -43,7 +46,12 @@
         #copywrites {
             display: flex;
             flex-wrap: wrap;
-           
-             justify-content: space-between;
+            gap: 100px;
+            justify-content: space-between;
+            align-items: flex-start;
+             
             font-family: Arial, Helvetica, sans-serif
+        }
+        .heders{
+             text-align:  center;
         }

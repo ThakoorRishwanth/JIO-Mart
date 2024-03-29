@@ -22,11 +22,11 @@ async function fetchData(url){
         
         let data = await res.json();
         
-        TotalData  = data.length;
-        console.log(TotalData);
-        total.textContent = TotalData;
 
-        sales(data);
+        console.log(data);
+
+            sales(data);
+
         
         
         
@@ -42,15 +42,16 @@ fetchData(api);
 
 fetchData(user_api)
 
-var sum = 0;
 function sales(item){
+    let sum = 0;
     item.forEach((items)=>{
-        let num = item.total;
-        console.log(num);
-        sum += num;
+        
+        sum += items.Total;
+        
+        // console.log(items.Total);
 
     })
-    Usertotal.append(sum)
+    Usertotal.textContent = sum;
 }
 
 

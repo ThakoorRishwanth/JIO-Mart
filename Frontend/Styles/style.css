@@ -2,54 +2,64 @@
     font-family: Arial, Helvetica, sans-serif;
     box-sizing: border-box;
     color: white;
-    width: auto;
+     
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 .mnavContainer{
     width: 100%;
-    /* border: 1px solid black; */
-    height: 110px;
+    
     display: grid;
     grid-template-rows: repeat(2,1fr);
     overflow-x: hidden;
+    
 }
-.mnavContainer>div{
-    /* border: 1px solid red; */
-}
+
+
 .mnavContainer>div:nth-child(1){
     height: 70px;
 }
 .mnavChildcontainer{
     display: flex;
     background-color: #0078ad;
+    
 
 }
 .hamburgerAndlogo{
     width: 200px;
     height: 60px;
-    border: 1px solid black;
+   
     margin-inline: 40px;
     margin-block: 5px;
     display: flex;
 }
 .hamburger{
-    width: 30px;
-    height: auto;
-    border: 1px solid black;
+    width: 40px;
+    height: 40px;
+
     margin-inline: 20px;
-    margin-block: 15px;
+    margin-block: 5px;
+    border-radius: 50%;
     
+}
+
+.hamburger:hover{
+    background-color: #0c5273;
+    cursor: pointer;
 }
 .logo>img{
     width: 100px;
     height: 60px;
-    border: 1px solid black;
+   
     border-radius: 50px;
    
 }
 .delivery{
     width: 270px;
-    height: 30px;
-    border: 1px solid black;
+  
     margin-block: 20px;
     display: flex;
     >h4{
@@ -63,17 +73,15 @@
     width: 350px;
     height: 40px;
     margin-block: 10px;
-    border: 1px solid black;
+    margin-left: 0;
+ 
     margin-inline: 300px;
     /* margin-block: 8px; */
     grid-template-columns: repeat(3,1fr);
     border-radius: 20px;
     background-color: white;
 }
-.search>div{
-    border: 1px solid red;
-    
-}
+
 .search>div:nth-child(1){
     height: 40px;
     /* margin-block: 10px; */
@@ -90,6 +98,7 @@
     height: 40px;
     /* margin-block: 10px; */
 }
+
 .cart{
     width: 40px;
     margin-inline: 40px;
@@ -99,7 +108,6 @@
 }
 .signin{
     margin-left: 720px;
-    /* border: 1px solid green; */
     width: 92px;
     margin-block: 3px;
     border-radius: 20px;
@@ -133,12 +141,14 @@
     margin-block: -15px;
     margin-inline: 10px;
     padding: 10px;
+    z-index: 1000;
    
     
 }
 .menu-bar ul li a{
     text-decoration: none;
-    height: 30px;
+    /* height: 30px; */
+    color: white;
     
     
 }
@@ -150,7 +160,7 @@
     background-color:#0078ad ;
 }
 .GroceriesSubmenu ul li a{
-    color: black;
+    color: white;
     line-height: 30px;
     margin-left: -50px;
    
@@ -176,6 +186,153 @@
       margin-left: 110px;
       margin-top: -25px;
       width: auto;
-      border: 1px solid black;
+   
      
 }
+.hamburgerContainer{
+    padding: 200px 200px;
+   
+}
+.ProductContainer{
+    width: 100%;
+    overflow-x: hidden;
+    height: 1000px;
+   
+}
+.slide{
+    width: 400px;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: -400px;
+    box-shadow: 2px 2px 2px 0px rgb(212, 209, 209);
+    z-index: 1000;
+ 
+}
+
+.slideHome{
+    width: 400px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #0078ad;
+}
+.slide h3{
+    margin-right: 80px;
+}
+
+.signin1{
+    margin-right: 30px;
+    border: 1px solid white;
+    width: 90px;
+    margin-block: 3px;
+    border-radius: 20px;
+    
+    >button{
+      width: 90px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 30px;
+      background-color: transparent;
+      
+      
+    }
+}
+.signin1:hover{
+    border: 1px solid #0c5273 ;
+}
+.Arrow{
+    width: 50px;
+    height: 50px;
+    margin-left: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Arrow:hover{
+    background-color: #0c5273;
+}
+.slideMidMainBox{
+    width: 400px;
+    background-color: white;
+    
+    
+}
+.SlideMidContent{
+    width: 380px;
+    border: 1px solid white;
+    background-color: white;
+ 
+    
+    >h5{
+       margin-left: 40px;
+       color: black;
+    }
+   
+}
+.SlideMidContent ul li{
+    list-style: none;
+    line-height: 40px;
+    border-bottom: 1px solid #ccc;
+}
+.SlideMidContent ul li a{
+    text-decoration: none;
+    color: #565656;
+    transition: 0.2s ease-out;
+}
+
+.itags{
+    margin-right: 10px;
+}
+.slideSecondLastContent{
+    width: 400px;
+    height: 200px;
+  
+    >h3{
+        margin-left: 40px;
+        color: black;
+    }
+}
+.gpAndAppleStore{
+    width: 300px;
+
+    margin-left: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.GooglePlayStore{
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8_GSGDneF42Y3lPYO4HHsKm8pyRHyWRJM7er0t0T381hvQAc_ii7Hme_O_Ym6G4fSbAg&usqp=CAU);
+    background-size: cover;
+}
+.AppleStore{
+    width: 120px;
+    height: 50px;
+    border-radius: 10px;
+    background-image: url(https://1000logos.net/wp-content/uploads/2020/08/apple-app-store-logo.jpg);
+    background-size: cover;
+}
+.ParaContent{
+    width: 300px;
+    height: 90px;
+   
+    margin-left: 40px;
+    >p{
+        color: #565656;
+        font-size: smaller;
+    }
+}
+/* Media query */
+
+
+@media (max-width: 992px){
+    .hamburger{
+        display: block;
+    }
+}
+

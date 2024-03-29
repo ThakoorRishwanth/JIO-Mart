@@ -55,3 +55,16 @@
         .heders{
              text-align:  center;
         }
+    
+        @media(min-width:1300px) {
+            #aboutus{
+                max-width: 1300px;
+                margin: auto;
+            }
+            #aboutus{
+                display: grid;
+              align-items: center;
+              justify-content: center;
+            }
+            
+        }

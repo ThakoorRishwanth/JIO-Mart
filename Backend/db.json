@@ -1733,7 +1733,16 @@
               "Current_price": "₹1,162.00",
               "MRP": "₹1,400.00",
               "Offer": "17% OFF"
-          }
+          },
+          {
+            "id": "61",
+            "Product_image": "https://www.jiomart.com/images/product/original/599990279/grapes-red-flame-residue-certified-indian-pack-500-g-product-images-o599990279-p590177457-0-202402081833.jpg?im=Resize=(360,360)",
+            "Veg-Symbol": "https://www.jiomart.com/assets/ds2web/jds-icons/icon-veg.svg",
+            "title": "Grapes Red Flame Residue Certified Indian Pack 500 g",
+            "Current_price": "₹112.00",
+            "MRP": "₹160.00",
+            "Offer": "26% OFF"
+        }
       ],
   "Kitchen":[],
   "Fashion":[],

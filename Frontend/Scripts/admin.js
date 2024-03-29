@@ -9,9 +9,12 @@ toggleButton.onclick = function(){
 
 let api = "https://zen-mart-2.onrender.com/Grociries";
 
+let user_api = "https://zen-mart-4.onrender.com/Users";
+
 let TotalData;
 
 let total = document.getElementById("total");
+let Usertotal = document.getElementById("Usertotal");
 
 async function fetchData(url){
     try{
@@ -22,6 +25,8 @@ async function fetchData(url){
         TotalData  = data.length;
         console.log(TotalData);
         total.textContent = TotalData;
+
+        sales(data);
         
         
         
@@ -33,8 +38,19 @@ async function fetchData(url){
     
 }
 
-
 fetchData(api);
 
+fetchData(user_api)
+
+var sum = 0;
+function sales(item){
+    item.forEach((items)=>{
+        let num = item.total;
+        console.log(num);
+        sum += num;
+
+    })
+    Usertotal.append(sum)
+}
 
 

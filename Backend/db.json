@@ -3,17 +3,17 @@
         "id":"1",
         "name":"Thakoor",
         "email":"Thakoor@gmail.com",
-        "Total":"3540"
+        "Total":3540
     },{
         "id":"2",
         "name":"Gupta",
         "email":"Gupta@gmail.com",
-        "Total":"3333"
+        "Total":3333
     },{
         "id":"3",
         "name":"Mishra",
         "email":"Mishra@gmail.com",
-        "Total":"2555"
+        "Total":2555
     }],
     "Grociries": [
         {

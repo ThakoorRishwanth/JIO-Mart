@@ -1,24 +1,21 @@
 //targeting elements
-
+let getdata = JSON.parse(localStorage.getItem("productdata")) || [];
+console.log(getdata);
+let _2nditem = document.getElementById("item-2");
+let _3rditem = document.getElementById("item-3");
 
 //example data
 // {
-//     "id": "1",
-//     "Product_image": "https://www.jiomart.com/images/product/original/491504124/super-sarvottam-physically-refined-rice-bran-oil-1-l-product-images-o491504124-p491504124-0-202307061545.jpg?im=Resize=(360,360)",
-//     "Veg_symbol": "https://www.jiomart.com/assets/ds2web/jds-icons/icon-veg.svg",
-//     "title": "Super Sarvottam Physically Refined Rice Bran Oil 1 L",
-//     "Current_price": "₹99.00",
-//     "MRP": "₹199.00",
-//     "Offer": "50% OFF"
+//     "image": "https://www.jiomart.com/images/product/original/rvwqbfhiw9/dr-vaidya-s-new-age-ayurveda-apple-cider-vinegar-450ml-product-images-orvwqbfhiw9-p606924086-0-202312271420.jpg?im=Resize=(360,360)",
+//     "title": "DR. VAIDYA'S new age ayurveda Apple Cider Vinegar, 450ml",
+//     "price": "₹299.00",
+//     "quantity": 3
 // }
-
-let getdata=JSON.parse(localstorage.getItem("productdata")) || [] ;
-console.log(getdata);
 
 
 //create card
 
-function card(obj) {
+function datacard(obj) {
 
     let c_div = document.createElement("div");
     let imagediv = document.createElement("div");
@@ -30,7 +27,7 @@ function card(obj) {
     let deletebtn = document.createElement("button");
 
     //attributes
-    c_div.id = "c_div."
+    c_div.id = "c_div"
     imagediv.id = "imagediv";
     product_img.id = "product_img";
     price.id = "price";
@@ -41,7 +38,7 @@ function card(obj) {
 
 
     //innertext
-    product_img.src = obj.Product_image;
+    product_img.src = obj.image;
     price.innerText = obj.price;
     quantity.innerText = obj.quantity;
     quatadd.innerText = "+";
@@ -51,7 +48,7 @@ function card(obj) {
     //append
     imagediv.append(product_img);
     c_div.append(imagediv, price, quantity, quatadd, quatdel, deletebtn);
-
+    _3rditem.append(c_div);
 
     //eventlistner
     // deletebtn.addEventListener("click", () => {
@@ -62,11 +59,9 @@ function card(obj) {
 // localdata=JSON.parse(localstorage.getItem("productdata")) || [] ;
 
 //checking empty divs
-let _2nditem = document.getElementById("item-2");
-let _3rditem = document.getElementById("item-3");
 
 function appenddata() {
-    // localdata=JSON.parse(localstorage.getItem("productdata")) || [] ;
+
     if (getdata.length === "") {
         _2nditem.style.visibility = "visible";
     }
@@ -74,23 +69,13 @@ function appenddata() {
     else if (_3rditem.innerHTML !== "") {
         _2nditem.style.visibility = "hidden";
         _3rditem.style.visibility = "visible";
-        _3rditem.innerHTML="";
-        getdata.forEach((element)=>{
-            card(element);
+        _3rditem.innerHTML = "";
+        getdata.forEach((element) => {
+            datacard(element);
+            console.log(element);
         })
 
     }
 }
 
-
-
-function getitems() {
-    let getdata = JSON.parse(localStorage.getItem("productdata")) || [];
-    console.log(getdata);
-    data.forEach(element => {
-        card(element)
-    });
-}
-
-// getdata
-getitems();
+appenddata();

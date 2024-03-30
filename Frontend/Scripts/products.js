@@ -5,8 +5,8 @@ let priceinput=document.getElementById("priceslide");
 let priceval=document.getElementById("pricevalue");
 let discountinput=document.getElementById("discountslide");
 let discountval=document.getElementById("discountvalue");
-let getdata= JSON.parse(localStorage.getItem("productdata")) || [];
-console.log(getdata);
+// let getdata= JSON.parse(localStorage.getItem("productdata")) || [];
+// console.log(getdata);
 
 
 
@@ -93,6 +93,7 @@ function card(obj) {
             // Product doesn't exist, add it to the cart
             getdata.push(data);
         }
+        
         localStorage.setItem("productdata", JSON.stringify(getdata));
     
     

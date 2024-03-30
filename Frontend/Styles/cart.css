@@ -49,3 +49,16 @@
     justify-content: center;
     align-items: center;
 }
+
+#c_div{
+    width: 500px;
+    height: 300px;
+}
+#imagediv{
+    border: 1px solid;
+    width: 200px;
+    height: 200px;
+}
+#imagediv>img{
+    width: 190px;
+}

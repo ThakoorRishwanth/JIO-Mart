@@ -3,6 +3,11 @@ let getdata = JSON.parse(localStorage.getItem("productdata")) || [];
 console.log(getdata);
 let _2nditem = document.getElementById("item-2");
 let _3rditem = document.getElementById("item-3");
+let navbar=document.getElementById("navbar");
+
+$(function(){
+    $("#navbar").load("navbar.html");
+})
 
 //example data
 // {

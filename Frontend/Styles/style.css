@@ -15,6 +15,7 @@ body{
     display: grid;
     grid-template-rows: repeat(2,1fr);
     overflow-x: hidden;
+   
     
 }
 
@@ -131,6 +132,8 @@ body{
 .menu-bar{
     height: 37px;
     background-color: #0c5273;
+    z-index: 1;
+   
 }
 .menu-bar ul{
     display: inline-flex;
@@ -186,6 +189,7 @@ body{
       margin-left: 110px;
       margin-top: -25px;
       width: auto;
+      z-index: 1;
    
      
 }
@@ -258,6 +262,7 @@ body{
 .slideMidMainBox{
     width: 400px;
     background-color: white;
+    /* z-index: 1000; */
     
     
 }
@@ -290,6 +295,9 @@ body{
 .slideSecondLastContent{
     width: 400px;
     height: 200px;
+    /* z-index: 1000; */
+    background-color: rgb(247, 242, 242);
+    padding: 10px;
   
     >h3{
         margin-left: 40px;
@@ -298,7 +306,7 @@ body{
 }
 .gpAndAppleStore{
     width: 300px;
-
+    
     margin-left: 40px;
     display: flex;
     justify-content: space-between;

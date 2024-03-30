@@ -1,7 +1,7 @@
 let navBarAttachment=document.querySelector(".navBarAttachment");
 
 $(function(){
-    $(".navBarAttachment").load("../Pages/navbar.html");
+    $(".navBarAttachment").load("navbar.html");
 })
 
 //store width of container in the obj variable

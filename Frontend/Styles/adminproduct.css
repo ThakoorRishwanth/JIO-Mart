@@ -94,8 +94,49 @@
     }
   }
 
-  .card-body{
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
-    
+
+  #container{
+      padding-right: 1.5rem;
+      padding-left: 1.5rem;
+      
+      display: flex;
+      
+      flex-wrap: nowrap;
+      
+      
+      input{
+          width: 90%;   
+          padding: 10px 10px;
+          margin: 10px;
+
+          border-radius: 5px;
+
+          border: 0px;
+          
+          box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+          
+        }
+        button{
+            
+            margin: 10px;
+            
+            border-radius: 5px;
+            
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            
+            border: 0px;
+
+            background-color: #0c5273;
+
+            color : white;
+
+            padding: 6px;
+
+        }
+        h4{
+            
+            margin: 10px;
+
+            color: white;
+    }
   }

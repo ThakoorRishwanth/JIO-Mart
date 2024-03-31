@@ -11,6 +11,28 @@ let api = "https://zen-mart-2.onrender.com/Grociries";
 // Getting the table-body
 let tbody = document.getElementById("products-table-body");
 
+// Add product 
+let titleInput = document.getElementById("title");
+let imgInput = document.getElementById("img");
+let priceInput = document.getElementById("price");
+let mrpInput = document.getElementById("mrp");
+let quantityInput = document.getElementById("quantity");
+let addBtn = document.getElementById("add-product");
+
+
+// Update product
+let updateid = document.getElementById("product_id");
+let titleupdate = document.getElementById("update_title");
+let imgupdate = document.getElementById("update_img");
+let priceupdate = document.getElementById("update_price");
+let mrpupdate = document.getElementById("update_mrp");
+let quantityupdate = document.getElementById("update_qunatity");
+let updatebtn = document.getElementById("updatebtn");
+
+// ADD EVENT LISTENERS
+addBtn.addEventListener("click", postData);
+updatebtn.addEventListener("click", editproduct);
+
 // Create the fetchData function
 async function fetchData(url){
 try{
@@ -33,6 +55,7 @@ function createRow(item){
     let thead = document.createElement("th");
     let name = document.createElement("td");
     let image = document.createElement("td");
+    let images = document.createElement("img");
     let curr_price = document.createElement("td");
     let mrp = document.createElement("td");
     let quantity = document.createElement("td");
@@ -40,13 +63,15 @@ function createRow(item){
     let del = document.createElement("td");
 
     let editbtn = document.createElement("button");
-    let delbtn = document.createElement("button"); 
+    let delbtn = document.createElement("button");
 
     thead.innerText = item.id;
 
     name.innerText = item.title;
 
-    image.src = item.image;
+    images.src = item.Product_image;
+    images.style.height="100px";
+    image.append(images);
 
     curr_price.innerText = item.Current_price;
 
@@ -66,12 +91,13 @@ function createRow(item){
 
             editbtn.addEventListener("click",()=>{
 
-                edit.value = item.id;
-                editName.value = item.title;
-            editImage.value = item.image;
-            editPrice.value = item.Current_price;
-            editCategory.value = item.MRP;
-            quantity.value = item.quantity? item.quantity : quantity.innerText;
+                updateid.value=item.id;
+                titleupdate.value=item.title;
+                imgupdate.value=item.Product_image;
+               priceupdate.value=item.Current_price;
+               console.log(item.title)
+                mrpupdate.value=item.MRP;
+            //   quantityupdate.value=item.quantity? item.quantity : quantity.innerText;
             
         })
 
@@ -82,7 +108,9 @@ function createRow(item){
         del.append(delbtn);
 
         delbtn.addEventListener("click",()=>{
-            deleteData(item.id);
+            deleteProduct(item.id)
+
+            console.log(item.id);
         })
 
         tr.append(thead, name, image, curr_price, mrp, quantity, edit, del);
@@ -102,3 +130,81 @@ function appendData(data){
     })
 }
 
+// ADD NEW DATA
+
+async function postData() {
+    let productData = {
+        title: titleInput.value,
+        Product_image: imgInput.value,
+        Current_price: priceInput.value,
+        MRP: mrpInput.value,
+        Quantity: quantityInput.value
+    };
+
+    try {
+        let res = await fetch(api, {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json"
+            },
+            body: JSON.stringify(productData)
+        });
+
+        if (!res.ok) {
+            throw new Error(`HTTP error! Status: ${res.status}`);
+        }
+
+        let data = await res.json();
+        console.log(data);
+        
+        fetchData(api);
+    } catch (err) {
+        console.log(err);
+    }
+}
+
+async function deleteProduct(id){
+    try{
+        let res = await fetch(`${api}/${id}`,{
+            method:"DELETE",
+        })
+        console.log(res);
+        fetchData(api)
+    }
+    catch(err){
+        console.log(err);
+    }
+}
+
+
+async function editproduct(id){
+    let editproducts={
+        id: updateid.value,
+        title: titleupdate.value,
+        Product_image: imgupdate.value,
+        Current_price: priceupdate.value,
+        MRP: mrpupdate.value,
+    }
+    try{
+        let res = await fetch(`${api}/${id}`,{
+            method:"PATCH",
+            headers:{
+                "Content-Type": "application/json" 
+            },
+
+            body:JSON.stringify(editproducts)
+
+        });
+        if (!res.ok) {
+            throw new Error(`HTTP error! Status: ${res.status}`);
+        }
+
+        let data = await res.json();
+
+        console.log(data);
+        fetchData(api);
+    }
+    catch(err){
+        console.log(err);
+    }
+}

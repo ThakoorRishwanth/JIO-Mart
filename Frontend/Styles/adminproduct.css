@@ -140,3 +140,13 @@
             color: white;
     }
   }
+
+  #btnTable{
+    margin-left: 20%;
+    margin-bottom: 10px;
+
+    button{
+      margin-left:15px;
+      padding: 10px;
+    }
+  }

@@ -119,7 +119,7 @@ function createRow(item){
 
         delbtn.innerText = "Delete"
 
-        del.className = "delbtn";
+        delbtn.className = "delbtn";
 
         del.append(delbtn);
 

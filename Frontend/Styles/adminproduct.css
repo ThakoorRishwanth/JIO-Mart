@@ -142,11 +142,47 @@
   }
 
   #btnTable{
-    margin-left: 20%;
+    margin-left: 18%;
     margin-bottom: 10px;
 
     button{
-      margin-left:15px;
+      margin-left:20px;
       padding: 10px;
+      background-color:#073245;
+      border: 0px;
+      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     }
+    button:hover{
+      cursor: pointer;
+      background-color:#7ec1e0;
+      color:black;
+
+    }
+  }
+
+  .editbtn{
+    border: 0px;
+    background-color: #0c5273;
+    color: white;
+    padding: 8px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  .editbtn:hover{
+    cursor: pointer;
+    background-color: #54c2f1;
+  }
+  
+  .delbtn{
+    border: 0px;
+    background-color: red;
+    color: white;
+    padding: 8px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  .delbtn:hover{
+    cursor: pointer;
+    background-color:tomato;
+
   }

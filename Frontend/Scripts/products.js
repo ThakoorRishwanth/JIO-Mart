@@ -1,10 +1,12 @@
 //targeting elements in dom
 let product_div = document.getElementById("products-card");
-let grocery_url = "https://zen-mart-4.onrender.com/Grociries?_page=1&_limit=24";
-let priceinput=document.getElementById("priceslide");
-let priceval=document.getElementById("pricevalue");
-let discountinput=document.getElementById("discountslide");
-let discountval=document.getElementById("discountvalue");
+let grocery_url = "https://zen-mart-4.onrender.com/Grociries?";
+let priceinput = document.getElementById("priceslide");
+let priceval = document.getElementById("pricevalue");
+let discountinput = document.getElementById("discountslide");
+let discountval = document.getElementById("discountvalue");
+
+
 // let getdata= JSON.parse(localStorage.getItem("productdata")) || [];
 // console.log(getdata);
 
@@ -41,7 +43,7 @@ function card(obj) {
     // main_div.id="main_div";
     cdiv.id = "cdiv";
     image_div.id = "image_div";
-    product_img.id="product_img";
+    product_img.id = "product_img";
     c_body.id = "c_body";
     product_title.id = "product_title";
     price_div.id = "price_div";
@@ -52,14 +54,14 @@ function card(obj) {
     btntext.id = "btntext";
 
     //innertext
-    product_img.src =obj.Product_image;
+    product_img.src = obj.Product_image;
     product_title.innerText = obj.title;
     product_price.innerText = obj.Current_price;
     product_oldprice.innerText = obj.MRP;
     product_offer.innerText = obj.Offer;
     btntext.innerText = "Add To Cart";
-    
-    
+
+
     //append
     add_btn.append(btntext);
     price_div.append(product_price, product_oldprice, product_offer);
@@ -70,47 +72,48 @@ function card(obj) {
     product_div.append(cdiv);
 
     // eventlistner 
-    
-    add_btn.addEventListener("click", (e)=>{
-         e.preventDefault();
-        let getdata= JSON.parse(localStorage.getItem("productdata")) || [];
 
-        let data={
-            image:obj.Product_image,
-            title:obj.title,
-            price:obj.Current_price,
-            quantity:1
+    add_btn.addEventListener("click", (e) => {
+        e.preventDefault();
+        let getdata = JSON.parse(localStorage.getItem("productdata")) || [];
+
+        let data = {
+            image: obj.Product_image,
+            title: obj.title,
+            price: obj.Current_price,
+            mrp:obj.MRP,
+            quantity: 1
         }
-    
+
         let existingProductIndex = getdata.findIndex(product => product.title === data.title);
-           
+
         if (existingProductIndex !== -1) {
             // Product already exists, update its quantity
             getdata[existingProductIndex].quantity++;
-    
+
         }
         else {
             // Product doesn't exist, add it to the cart
             getdata.push(data);
         }
-        
+
         localStorage.setItem("productdata", JSON.stringify(getdata));
-    
-    
-    
+
+        // window.location.href = 'cart.html';
+
     })
-    
+
 }
 
 
 //fetching data
 
-async function fetchdata(url, params = "") {
+async function fetchdata(url) {
     try {
-        let res = await fetch(`${url}&${params}`);
+        let res = await fetch(`${url}&_limit=24`);
         let ans = await res.json();
-       
-         console.log(ans);
+
+        console.log(ans);
 
         ans.forEach(element => {
             card(element);
@@ -133,12 +136,12 @@ fetchdata(grocery_url);
 
 //price slider js
 
-function slideprice(){
-    priceinput.addEventListener("input",()=>{
-        let val=priceinput.value;
-        let price=`${val}`;
+function slideprice() {
+    priceinput.addEventListener("input", () => {
+        let val = priceinput.value;
+        let price = `${val}`;
 
-        priceval.innerText=`${price}`;
+        priceval.innerText = `${price}`;
     })
 }
 
@@ -147,15 +150,47 @@ slideprice();
 
 //price slider js
 
-function slidediscount(){
-    discountinput.addEventListener("input",()=>{
-        let val=discountinput.value;
-        let price=`${val}`;
+function slidediscount() {
+    discountinput.addEventListener("input", () => {
+        let val = discountinput.value;
+        let price = `${val}`;
 
-        discountval.innerText=`${price}`;
+        discountval.innerText = `${price}`;
     })
 }
 
 slidediscount();
 
 
+//infinity scroolbar
+
+
+// Function to detect if scrollbar has reached the bottom of the page
+function isScrollbarAtBottom() {
+    return (window.innerHeight + window.scrollY) >= document.body.offsetHeight;
+}
+
+// Function to load more products when scrollbar reaches the bottom
+function loadMoreProducts() {
+    let currentPage = 1; // Variable to keep track of current page
+    let loading = false; // Flag to prevent multiple simultaneous requests
+
+    window.addEventListener('scroll', function() {
+        if (!loading && isScrollbarAtBottom()) {
+            loading = true; // Set loading flag
+
+            // Increment page number and fetch more products
+            currentPage++;
+            let nextPageUrl = `${grocery_url}&_page=${currentPage}`;
+            fetchdata(nextPageUrl)
+                .then(() => loading = false) // Reset loading flag after data is loaded
+                .catch((error) => {
+                    loading = false; // Reset loading flag on error
+                    console.error('Error loading more products:', error);
+                });
+        }
+    });
+}
+
+// Call the function to load more products when scrollbar reaches the bottom
+loadMoreProducts();

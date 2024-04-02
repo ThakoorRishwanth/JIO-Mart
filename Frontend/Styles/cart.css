@@ -1,9 +1,3 @@
-* {
-    /* margin: 0;
-    padding: 0; */
-    box-sizing: border-box;
-}
-
 /* my cart  */
 #container {
     display: flex;
@@ -40,25 +34,166 @@
 
 }
 
+#item-1>h1 {
+    color: black;
+}
+
 /* item-2 styles  */
 
-#item-2{
-    margin: 100px;
+#item-2 {
+    margin-top: 50px;
+    margin-bottom: 100px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-#c_div{
-    width: 500px;
-    height: 300px;
+#item-2>h3,
+p {
+    color: black;
 }
-#imagediv{
-    border: 1px solid;
+
+#c_div {
+    margin: 10px;
+    padding: 30px;
+    width: 700px;
+    height: 250px;
+    border: 1px solid rgba(0, 0, 0, 0.212);
+    display: flex;
+    gap: 20px;
+    border-radius: 20px;
+}
+
+#imagediv {
     width: 200px;
     height: 200px;
 }
-#imagediv>img{
+
+#imagediv>img {
     width: 190px;
+}
+
+#price {
+    color: black;
+}
+
+#title {
+    color: black;
+}
+
+#quantitydiv {
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#quantity {
+    color: black;
+
+}
+
+#deletebtn {
+    color: black;
+    background-color: rgba(0, 0, 0, 0.212);
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+#deletebtn:hover{
+    
+    background-color: rgba(0, 0, 0, 0.479);
+}
+#quatadd,
+#quatdel {
+    color: black;
+    background-color: rgba(0, 0, 0, 0.425);
+    padding: 5px;
+    height: 30px;
+    width: 30px;
+    border: none;
+    border-radius: 50%;
+}
+#quatadd:hover{
+
+    background-color: rgba(0, 0, 0, 0.712);
+}
+#quatdel:hover{
+    background-color: rgba(0, 0, 0, 0.712);
+}
+
+#pagedivide {
+    display: flex;
+
+}
+
+#item-3 {
+    margin-top: -400px;
+    margin-right: 340px;
+}
+
+#item-4 {
+    position: sticky;
+    border: 1px solid black;
+    height: 500px;
+    width: 350px;
+    margin-left: -300px;
+    margin-top: -400px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#item-4>h2 {
+    color: black;
+
+}
+
+/* div.id="main_div";
+    mes_div.id="mes_div";
+    order_total.id="order_total";
+    checkpay.id="checkpay"; */
+
+#main_div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#mes_div {
+    color: black;
+    width: 345px;
+    height: 300px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBKOiMN4n-S6AhjTcyT6FWEstb9npNGpexvA&usqp=CAU");
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+}
+
+#order_total {
+    color: black;
+    font-size: larger;
+    font-weight: 700;
+}
+
+#checkpay {
+    color: black;
+    padding: 10px;
+    border: none;
+    font-size: larger;
+    background-color: rgba(255, 255, 0, 0.582);
+    border-radius: 20px;
+}
+#checkpay:hover{
+    background-color:rgba(255, 255, 0, 0.993) ;
 }

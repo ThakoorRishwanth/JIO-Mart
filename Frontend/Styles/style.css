@@ -296,7 +296,7 @@ body{
     }
    
 }
-.SlideMidContent ul li{
+.SlideMidContent ul {
     list-style: none;
     line-height: 40px;
     border-bottom: 1px solid #ccc;

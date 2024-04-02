@@ -296,7 +296,7 @@ body{
     }
    
 }
-.SlideMidContent ul li{
+.SlideMidContent ul {
     list-style: none;
     line-height: 40px;
     border-bottom: 1px solid #ccc;
@@ -306,7 +306,9 @@ body{
     color: #565656;
     transition: 0.2s ease-out;
 }
-
+.SlideMidContent ul li a:hover{
+    text-decoration: underline;
+}
 .itags{
     margin-right: 10px;
 }

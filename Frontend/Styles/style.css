@@ -101,11 +101,29 @@ body{
 }
 
 .cart{
-    width: 40px;
+    width: 50px;
+   
     margin-inline: 40px;
-    border: 1px solid yellow;
+
     margin-block: -40px;
     margin-inline: 670px;
+    
+}
+.count{
+    width:18px;
+    height:18px;
+   
+    position: absolute;
+    margin-inline: 20px;
+    z-index: 1;
+    top: 15px;
+    left: 1215px;
+    background-color: red;
+    border-radius: 50%;
+    text-align: center;
+  
+
+
 }
 .signin{
     margin-left: 720px;

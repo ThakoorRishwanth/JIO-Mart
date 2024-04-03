@@ -212,3 +212,10 @@ function totalpaymentcalc(){
   console.log(totalPrice);
 }
 totalpaymentcalc();
+
+
+let footer=document.getElementById("footer");
+
+$(function(){
+    $("#footer").load("footer.html");
+})

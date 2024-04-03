@@ -3,21 +3,21 @@
         "id":"1",
         "name":"Thakoor",
         "email":"Thakoor@gmail.com",
-        "password":"$2a$10$5QN7XzSZQM/d4mwX0C0lM.b0AiamSnEP9AlIgZSz747yLHiRW0eZu",
+        "password":"123456789",
         "isAdmin": true,
         "Total":3540
     },{
         "id":"2",
         "name":"Gupta",
         "email":"Gupta@gmail.com",
-        "password": "$2a$10$wlysXVTSMFiA1qYktSlS1uUbx27xtQaHP4yQdyxQ7KfCffQtUxFmG",
+        "password": "987654321",
         "isAdmin": false,
         "Total":3333
     },{
         "id":"3",
         "name":"Mishra",
         "email":"Mishra@gmail.com",
-        "password": "$2a$10$D188Gt/lIXxemIS7C.SH5OMonX2pTTN7Iv7vgrmNWY6snhJZQa3My",
+        "password": "987654320",
         "isAdmin": false,
         "Total":2555
     }],

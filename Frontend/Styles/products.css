@@ -1,14 +1,9 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+
 
 /* home section  */
 
 #home {
     margin-left: 3.5%;
-    margin-top: 2%;
 }
 
 #home>a {
@@ -16,7 +11,6 @@
     text-decoration: none;
 
 }
-
 /* product middle  */
 
 #product-middle {
@@ -39,7 +33,7 @@
     padding-bottom: 20px;
     width: 20%;
     height: 600px;
-    border: 1px solid;
+    border: 1px solid rgba(0, 0, 0, 0.459);
     border-radius: 20px;
 }
 
@@ -66,6 +60,7 @@
     padding: 30px;
     border: 1px solid;
     border-radius: 20px;
+    
 }
 
 /* products grid  */
@@ -137,18 +132,520 @@
 }
 
 #add_btn {
-    width: 300px;
+    width: 295px;
     height: 40px;
-    border: 1px solid;
     border-radius: 20px;
+    border: none;
 }
 
-#add_btn:hover{
-    background-color:rgba(0, 0, 0, 0.137);
+#add_btn:hover {
+    background-color: rgba(0, 0, 0, 0.137);
 }
 
 #poster>img {
     border-radius: 30px;
     width: 930px;
     height: 180px;
+}
+
+
+
+
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+
+
+
+
+/* madhus styles  */
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+
+}
+
+body {
+    box-sizing: border-box;
+}
+
+.mnavContainer {
+    width: 100%;
+    margin-top: -23.9px;
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    overflow-x: hidden;
+
+
+}
+
+
+.mnavContainer>div:nth-child(1) {
+    height: 70px;
+}
+
+.mnavChildcontainer {
+    display: flex;
+    background-color: #0078ad;
+    justify-content: space-around;
+
+
+}
+
+.hamburgerAndlogo {
+    display: flex;
+    align-items: center;
+}
+
+.HamburgerLogoDelivery {
+    display: flex;
+    /* Use flexbox to align items horizontally */
+    align-items: center;
+    /* Align items vertically in the center */
+    justify-content: space-around;
+    /* border: 1px solid black; */
+    /* width: 600px; */
+    margin-left: 50px;
+    gap: 20px;
+
+}
+
+.AllSideCartSection {
+    display: flex;
+    /* Use flexbox to align items horizontally */
+    align-items: center;
+    /* Align items vertically in the center */
+    /* left: 50px; */
+    justify-content: space;
+
+    width: 800px;
+
+
+
+}
+
+.hamburger {
+    width: 40px;
+    height: 40px;
+    margin-inline: 20px;
+    margin-block: 5px;
+    border-radius: 50%;
+
+}
+
+.hamburger:hover {
+    background-color: #0c5273;
+    cursor: pointer;
+}
+
+.logo>img {
+    width: 100px;
+    height: 60px;
+
+    border-radius: 50px;
+
+}
+
+.delivery {
+    width: 270px;
+    
+    /* margin-block: 20px; */
+    display: flex;
+
+    >h4 {
+        margin-block: 5px;
+        /* margin-inline: 5px; */
+        font-size:large;
+    }
+
+}
+
+.search {
+    display: grid;
+    width: 350px;
+    height: 40px;
+    /* margin-block: 10px; */
+    /* margin-left: 0; */
+
+    /* margin-inline: 300px; */
+    /* margin-block: 8px; */
+    grid-template-columns: repeat(3, 1fr);
+    border-radius: 20px;
+    background-color: white;
+}
+
+.search>div:nth-child(1) {
+    height: 40px;
+    /* margin-block: 10px; */
+    /* border-radius: 20px; */
+
+}
+
+.search>div:nth-child(2) {
+    width: 253px;
+    height: 40px;
+    /* margin-block: 10px; */
+
+}
+
+.search>div:nth-child(3) {
+    height: 40px;
+    /* margin-block: 10px; */
+}
+
+.cart {
+    width: 40px;
+    /* margin-inline: 40px; */
+    /* border: 1px solid yellow; */
+    margin-block: -40px;
+    margin-inline: 500px;
+
+
+
+}
+
+.count {
+    width: 18px;
+    height: 18px;
+
+    position: absolute;
+    margin-inline: 20px;
+    z-index: 1;
+    top: 15px;
+
+    background-color: red;
+    border-radius: 50%;
+    text-align: center;
+
+
+
+}
+
+.signin {
+    margin-left: 550px;
+    width: 92px;
+    /* margin-block: 3px; */
+    border-radius: 20px;
+
+    >button {
+        height: 30px;
+        width: 92px;
+        display: flex;
+        align-items: center;
+        /* justify-content: center; */
+        height: 40px;
+        background-color: transparent;
+
+    }
+
+}
+
+/* work on 28/3 */
+.signin:hover {
+    background-color: #0c5273;
+}
+
+.menu-bar {
+    height: 37px;
+    background-color: #0c5273;
+    z-index: 1;
+
+
+
+}
+
+.menu-bar ul {
+    list-style: none;
+    padding: 0;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px;
+
+
+
+}
+
+/* .menu-bar ul li{
+    margin-block: -15px;
+    margin-inline: 10px;
+   
+    z-index: 1000;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+    
+} */
+.menu-bar ul li {
+    display: inline-block;
+    /* Display list items horizontally */
+    margin-right: 20px;
+    z-index: 1000;
+    /* Add spacing between list items */
+
+}
+
+.menu-bar ul li:last-child {
+    margin-right: 0;
+    /* Remove margin from the last list item to avoid extra spacing */
+}
+
+.menu-bar ul li a {
+    text-decoration: none;
+    /* Remove default underline from links */
+    color: white;
+    /* Set link color */
+    font-weight: bold;
+    /* Make links bold */
+}
+
+.GroceriesSubmenu {
+    display: none;
+
+}
+
+.GroceriesSubmenu ul {
+    background-color: #0078ad;
+}
+
+.menu-container {
+    width: 100%;
+    /* Set the width of the container */
+    display: flex;
+    /* Use flexbox */
+    justify-content: space-between;
+    /* Center the menu horizontally */
+    align-items: center;
+}
+
+.GroceriesSubmenu>ul>li {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 250px;
+    align-items: flex-start;
+    /* top: -50px; */
+
+}
+
+.GroceriesSubmenu>ul {
+    /* margin: 10px; */
+    top: -100px;
+}
+
+.menu-bar ul li:hover .GroceriesSubmenu {
+    display: block;
+    z-index: 1000;
+    /* Display submenu on hover */
+}
+
+.GroceriesSubmenu ul li {
+    margin-bottom: 5px;
+    /* Add spacing between submenu items */
+}
+
+.GroceriesSubmenu ul li a {
+    color: white;
+    line-height: 30px;
+    /* margin-left: -50px; */
+
+}
+
+.menu-bar ul li:hover .GroceriesSubmenu {
+    display: block;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: -10px;
+
+}
+
+.menu-bar ul li:hover .GroceriesSubmenu ul {
+    display: block;
+    width: auto;
+
+}
+
+.FruitsDropdown {
+    display: none;
+}
+
+.fruitshover:hover .FruitsDropdown {
+    position: absolute;
+    display: block;
+    margin-left: 110px;
+    margin-top: -25px;
+    width: auto;
+    z-index: 1;
+
+
+}
+
+.hamburgerContainer {
+    padding: 200px 200px;
+
+}
+
+.ProductContainer {
+    width: 100%;
+    overflow-x: hidden;
+    height: 1000px;
+
+}
+
+.slide {
+    width: 400px;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: -400px;
+    box-shadow: 2px 2px 2px 0px rgb(212, 209, 209);
+    z-index: 1000;
+}
+
+.slideHome {
+    width: 400px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #0078ad;
+}
+
+.slide h3 {
+    margin-right: 80px;
+}
+
+.signin1 {
+    margin-right: 30px;
+    border: 1px solid white;
+    width: 90px;
+    margin-block: 3px;
+    border-radius: 20px;
+
+    >button {
+        width: 90px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 30px;
+        background-color: transparent;
+
+
+    }
+}
+
+.signin1:hover {
+    border: 1px solid #0c5273;
+}
+
+.Arrow {
+    width: 50px;
+    height: 50px;
+    margin-left: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Arrow:hover {
+    background-color: #0c5273;
+}
+
+.slideMidMainBox {
+    width: 400px;
+    background-color: white;
+    /* z-index: 1000; */
+
+
+}
+
+.SlideMidContent {
+    width: 380px;
+    border: 1px solid white;
+    background-color: white;
+
+
+    >h5 {
+        margin-left: 70px;
+        color: black;
+        line-height: 20px;
+    }
+
+}
+
+.SlideMidContent ul li {
+    list-style: none;
+    line-height: 50px;
+    border-bottom: 1px solid #ccc;
+    margin-left: 50px;
+}
+
+.SlideMidContent ul li a {
+    text-decoration: none;
+    color: #565656;
+    transition: 0.2s ease-out;
+}
+
+.itags {
+    margin-right: 10px;
+}
+
+.slideSecondLastContent {
+    width: 400px;
+    height: 200px;
+    /* z-index: 1000; */
+    background-color: rgb(247, 242, 242);
+    padding: 10px;
+
+    >h3 {
+        margin-left: 40px;
+        color: black;
+    }
+}
+
+.gpAndAppleStore {
+    width: 300px;
+
+    margin-left: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.GooglePlayStore {
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8_GSGDneF42Y3lPYO4HHsKm8pyRHyWRJM7er0t0T381hvQAc_ii7Hme_O_Ym6G4fSbAg&usqp=CAU);
+    background-size: cover;
+}
+
+.AppleStore {
+    width: 120px;
+    height: 50px;
+    border-radius: 10px;
+    background-image: url(https://1000logos.net/wp-content/uploads/2020/08/apple-app-store-logo.jpg);
+    background-size: cover;
+}
+
+.ParaContent {
+    width: 300px;
+    height: 90px;
+
+    margin-left: 40px;
+
+    >p {
+        color: #565656;
+        font-size: smaller;
+    }
+}
+
+/* Media query */
+
+
+@media (max-width: 992px) {
+    .hamburger {
+        display: block;
+    }
 }

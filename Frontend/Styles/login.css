@@ -22,11 +22,11 @@
     margin-top: 50px;
  }
  
- #password{
+ #login-password{
      height: 25px;
      border-radius: 5px;
  }
- #email{
+ #login-username{
     height: 25px;
     border-radius: 5px;
  }

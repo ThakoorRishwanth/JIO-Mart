@@ -1,55 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="..//Styles/login.css">
-</head>
-<body>
-
-    <div id="nav_login">
-
-    </div>
+    <link rel="stylesheet" href="..//Styles/login.css" />
+  </head>
+  <body>
+    <div id="nav_login"></div>
 
     <div id="page">
-    <div class="loginpage">
-         
+      <div class="loginpage">
         <div class="image">
-            <img src="../../images/login-page.webp" alt="">
+          <img src="../../images/login-page.webp" alt="" />
         </div>
         <div class="signin_form">
-            <h1 style="font-weight: 800;"> Sign in to JioMart </h1>
-            <p>to access your Addresses, Orders \& Wishlist.</p>
+          <h1 style="font-weight: 800">Sign in to JioMart</h1>
+          <p>to access your Addresses, Orders \& Wishlist.</p>
 
-            <form action="#" method="POST" id="form">
-                <label for="email">Email:</label>
-               
-                <input type="email" id="email" name="email" placeholder="Enter email" required style="border: 1px solid;"> 
-            
-                <label for="password">Password:</label>
-                <input type="password" id="password" name="password" placeholder="Enter password"  required style="border: 1px solid;">
-                <div style="display: flex; justify-content: space-between; margin-top: 10px;">
-                    <div>
-                    <input type="checkbox" id="scales" name="scales" />
-                    <label for="scales" style="font-size: 14px;">Remember me</label>
-                    </div>
-                    <a href="" style="text-decoration: none; color: black; font-size: 12px;">Forgot Password?</a>
-                </div>
-            
-                 <button id="signin_form">LOG IN</button>
+          <form action="#" method="POST" id="form">
+            <label for="email">Email:</label>
 
-                 <div style="justify-content: center; align-items: center; display:  flex; gap: 5px;">
-                    <p style="font-size: 14px;">For New Users</p>
-                    <button id="sinup-btn">SIGN UP</button>
-                 </div>
-                 <p style="font-size: 12px;">By continuing, you agree to our <a href=""><strong>Terms of Service</strong></a> and <a href=""><strong>Privacy\& Legal Policy</strong></a></p>
-            </form>
+            <input
+              type="text"
+              id="login-username"
+              name="email"
+              placeholder="Enter email"
+              required
+              style="border: 1px solid"
+            />
+
+            <label for="password">Password:</label>
+            <input
+              type="password"
+              id="login-password"
+              name="password"
+              placeholder="Enter password"
+              required
+              style="border: 1px solid"
+            />
+            <div
+              style="
+                display: flex;
+                justify-content: space-between;
+                margin-top: 10px;
+              "
+            >
+              <div>
+                <input type="checkbox" id="scales" name="scales" />
+                <label for="scales" style="font-size: 14px">Remember me</label>
+              </div>
+              <a
+                href=""
+                style="text-decoration: none; color: black; font-size: 12px"
+                >Forgot Password?</a
+              >
+            </div>
+
+            <button id="signin_form">LOG IN</button>
+
+            <div
+              style="
+                justify-content: center;
+                align-items: center;
+                display: flex;
+                gap: 5px;
+              "
+            >
+              <p style="font-size: 14px">For New Users</p>
+              <button id="sinup-btn">SIGN UP</button>
+            </div>
+            <p style="font-size: 12px">
+              By continuing, you agree to our
+              <a href=""><strong>Terms of Service</strong></a> and
+              <a href=""><strong>Privacy\& Legal Policy</strong></a>
+            </p>
+          </form>
         </div>
+      </div>
     </div>
-    </div>
-     
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="../Scripts/login.js"></script>
-</body>
+  </body>
 </html>

@@ -30,7 +30,7 @@
     height: 25px;
     border-radius: 5px;
  }
- .signin{
+ .signin_form{
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     margin-top: 50px;
     padding: 30px;
@@ -38,7 +38,7 @@
     height:  550px;
  }
 
- #login{
+ #signin_form{
     border: none;
      
     background-color: #E5322D;

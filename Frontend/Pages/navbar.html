@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./../Styles/style.css" />
+    <link rel="stylesheet" href="../Styles/style.css" />
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
@@ -28,24 +28,25 @@
     <script src="https://kit.fontawesome.com/495d6b39f3.js" crossorigin="anonymous"></script>
   </head>
   <body>
+    <div id="navIdBar">
     <label>
       <div class="slide">
         <!-- home slide section -->
         <div class="slideHome">
           <div class="Arrow">
-            <span class="material-symbols-outlined" style="margin-left: 10px">
+            <span class="material-symbols-outlined" style="margin-left: 10px;color: white;">
               arrow_back_ios
             </span>
           </div>
-          <h3>Hello!</h3>
+          <h3 style="color: white;">Hello!</h3>
           <div class="signin1">
-            <button style="border: none">
+            <button style="border: none;color: white;">
               <span class="material-symbols-outlined"> person </span
               ><span
                 class="signinbutton"
                 style="
                   font-family: Arial, Helvetica, sans-serif;
-                  font-weight: bolder;
+                  font-weight: bolder;color: white;
                 "
                 >Login</span
               >
@@ -101,38 +102,42 @@
         
       </div>
     </label>
-    <div class="mnavContainer">
+    <div style="background-color: #0078AD;">
+    <div class="mnavContainer" style="height: 75px;">
       <div class="mnavChildcontainer">
         <!-- Start of logo and hamburger -->
+        <div class="HamburgerLogoDelivery">
         <div class="hamburgerAndlogo">
           <div class="hamburger">
             <span
               class="material-symbols-outlined"
-              style="margin-inline: 8px; margin-block: 8px"
+              style="margin-inline: 8px; margin-block: 8px;color: white;"
               >menu</span
             >
           </div>
-         <a href="./LandingPage.html"><div class="logo">
+          <a href="../Pages/LandingPage.html"><div class="logo">
             <img src="../../images/ez.gif" alt="" />
           </div>
-        </a> 
+        </a>
         </div>
         <!-- start of delivery box section -->
         <div class="delivery">
-          <span class="material-symbols-outlined" style="margin-block: 1px">
+          <span class="material-symbols-outlined" style="margin-block: 1px;color: white;">
             location_on
           </span>
-          <h4>
+          <h4 style="color: white;">
             Delivery to <strong>Mumbai 400020</strong>
           </h4>
         </div>
+      </div>
         <!-- start of search bar -->
+        <div class="AllSideCartSection">
         <div class="searchCartAndSignIn">
           <div class="search">
             <div class="searchicon">
               <span
                 class="material-symbols-outlined"
-                style="margin: 10px; color: #565656; border: none;"
+                style="margin: 10px; color: #565656; border: none; "
               >
                 search
               </span>
@@ -153,28 +158,33 @@
             </div>
           </div>
           <!-- start of cart icon -->
-          <div class="cart">
-            <div class="count">1</div>
-            <span class="material-symbols-outlined"> shopping_cart </span>
+          
+         <a href="../Pages/cart.html"><div class="cart">
+            <div class="count" style="color: white;">1</div>
+            <span class="material-symbols-outlined" style="color: white;"> shopping_cart </span>
           </div>
+        </a> 
           <!-- sign in -->
-          <a href="./login.html" style="text-decoration: none;"><div class="signin">
-            <button style="border: none">
-              <span class="material-symbols-outlined"> person </span
+          <a href="./login.html" style="text-decoration: none;"> <div class="signin">
+            <button style="border: none;" >
+              <span class="material-symbols-outlined" style="color: white; margin-left: 10px;"> person </span
               ><span
                 class="signinbutton"
                 style="
                   font-family: Arial, Helvetica, sans-serif;
-                  font-weight: bolder;
+                  font-weight: bolder;color: white; ;
                 "
                 >Login</span
               >
             </button>
           </div>
-        </a>
+          </a>
         </div>
       </div>
-   
+    </div>
+    </div>
+    <div style="background-color: #0c5273;">
+    <div class="menuContainer">
       <div class="menu-bar">
         <!-- Deopdown navbar -->
         <ul>
@@ -182,14 +192,14 @@
             <a href="#">Groceries</a>
             <!-- Adding items in dropdow -->
             <div class="GroceriesSubmenu">
-              <ul>
+              <ul style="display: flex; flex-direction: column;" >
                 <li class="fruitshover"><a href="./products.html">Fruits &amp; Vegetables</a></li>
-                <li><a href="./products.htm./products.html">Dairy &amp; Bakery</a></li>
-                <li><a href="./products.htm./products.html">Staples</a></li>
-                <li><a href="./products.htm./products.html">Snacks &amp; Branded Food</a></li>
-                <li><a href="./products.htm./products.html">Beverages</a></li>
-                <li><a href="./products.htm./products.html">Personal Care</a></li>
-                <li><a href="./products.htm./products.html">Home Care</a></li>
+                <li><a href="./products.html">Dairy &amp; Bakery</a></li>
+                <li><a href="./products.html">Staples</a></li>
+                <li><a href="./products.html">Snacks &amp; Branded Food</a></li>
+                <li><a href="./products.html">Beverages</a></li>
+                <li><a href="./products.html">Personal Care</a></li>
+                <li><a href="./products.html">Home Care</a></li>
               </ul>
             </div>
           </li>
@@ -311,12 +321,15 @@
             </div>
           
           
-
+          
           
           </li>
         </ul>
       </div>
     </div>
+  </div>
+    </div>
+  
     <!-- <div class="ProductContainer">
         <div class="slideBar"></div>
     </div> -->

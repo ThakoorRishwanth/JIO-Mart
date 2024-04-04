@@ -1,11 +1,11 @@
 let navBarAttachment=document.querySelector(".navBarAttachment");
 let footerDiv=document.querySelector(".footerDiv");
 $(function(){
-    $(".navBarAttachment").load("navbar.html");
+    $(".navBarAttachment").load("../../Frontend/Pages/navbar.html");
 })
 
 $(function(){
-  $(".footerDiv").load("footer.html");
+  $(".footerDiv").load("../../Frontend/Pages/footer.html");
 })
 
 //store width of container in the obj variable

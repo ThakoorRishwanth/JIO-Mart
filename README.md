@@ -26,7 +26,7 @@ ZEN_MART/ |--Images/ | |--ZEN-MARTLogo/ | |--userTemplate/ | |--adminDashBoard/ 
 + 
 ## Video Walkthrough of the CodeBase
 
-- A walkthrough of the codebase and the folder structure can be accessed here on YouTube: []
+- A walkthrough of the codebase and the folder structure can be accessed here on YouTube: [https://youtu.be/C_B_O9NwaMc]
 - 
 ## Features
 

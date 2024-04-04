@@ -435,3 +435,7 @@ body{
         align-items: center;
     }
  }
+
+ .content{
+    line-height: 20px;
+}

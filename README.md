@@ -23,11 +23,11 @@ ZEN_MART/ |--Images/ | |--ZEN-MARTLogo/ | |--userTemplate/ | |--adminDashBoard/ 
 
 + A YouTube video explaining the entire project and showcasing the features and functionalities can be accessed here: [https://youtu.be/eaobP-AiLLk]
 + A YouTube video answering some of the questions related to the project can be found here: [https://youtu.be/-9WOPlEqS-4]
-+ 
+ 
 ## Video Walkthrough of the CodeBase
 
 - A walkthrough of the codebase and the folder structure can be accessed here on YouTube: [https://youtu.be/C_B_O9NwaMc]
-- 
+
 ## Features
 
 + Dynamically added elements using a mock server

@@ -17,7 +17,7 @@ Both the front-end and the mock server have been deployed using render.com. The 
 
 #Director Structure
 
-ZEN_MART/ |--Images/ | |--ZEN-MARTLogo/ | |--userTemplate/ | |--adminDashBoard/ |--backend/ |--scripts/
+ZEN_MART/ |--Backend/ | |--Frontend/ | |--adminDashBoard/ | |--images|
 
 ## Video Walkthrough of the Project
 
